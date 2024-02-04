@@ -24,7 +24,7 @@
                             <a id="logo" href="https://starpoltrading.com" title="Starpol Trading"><img class="logo-main scale-with-grid" src="https://starpoltrading.com/wp-content/uploads/2020/12/Logo-01.png" alt="Logo-01" /><img class="logo-sticky scale-with-grid" src="https://starpoltrading.com/wp-content/uploads/2020/12/Logo-01.png" alt="Logo-01" /><img class="logo-mobile scale-with-grid" src="https://starpoltrading.com/wp-content/uploads/2020/12/Logo-01.png" alt="Logo-01" /></a>				</div>
                         <div class="menu_wrapper">
 
-                            <nav id="menu" class="menu-main-menu-ingles-container"><ul id="menu-main-menu-ingles" class="menu"><li id="menu-item-384" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home"><a href="https://starpoltrading.com/"><span>Home</span></a></li>
+                            <nav id="menu" class="menu-main-menu-ingles-container"><ul id="menu-main-menu-ingles" class="menu"><li id="menu-item-384" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home"><a href="{{route('index')}}"><span>Home</span></a></li>
                                     <li id="menu-item-385" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="#"><span>Products and Applications</span></a>
                                         <ul class="sub-menu">
                                             <li id="menu-item-458" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://starpoltrading.com/thermoplastics-resins/"><span>Thermoplastics Resins</span></a></li>
@@ -37,9 +37,9 @@
                                             <li id="menu-item-394" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://starpoltrading.com/calcium-carbonate-powder/"><span>Powder</span></a></li>
                                         </ul>
                                     </li>
-                                    <li id="menu-item-400" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://starpoltrading.com/request-a-quote/"><span>Quote/Samples</span></a></li>
-                                    <li id="menu-item-192" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://starpoltrading.com/about/"><span>About</span></a></li>
-                                    <li id="menu-item-194" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://starpoltrading.com/contact/"><span>Contact</span></a></li>
+                                    <li id="menu-item-400" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="{{route('quote')}}"><span>Quote/Samples</span></a></li>
+                                    <li id="menu-item-192" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="{{route('about')}}"><span>About</span></a></li>
+                                    <li id="menu-item-194" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="{{route('contact')}}"><span>Contact</span></a></li>
                                 </ul></nav><a class="responsive-menu-toggle " href="#"><i class="icon-menu"></i></a>
                         </div>
                         <div class="logo-euro" style="float:right!important;">
