@@ -34,18 +34,18 @@ class AppServiceProvider extends ServiceProvider
 //        $logoWebsite = Banner::where('status', 1)->where('type', 5)->first();
 //        $contactFooter = About::first();
 //        //Config
-        $config = Config::first();
+//        $config = Config::first();
 //        $links = Link::where('status',1)->orderBy('created_at', 'asc')->get();
 //        $categories = Category::where('status', 1)->where('level', 1)->orderBy('order', 'asc')->get();
 //        // Lien he
 //        $contactWebsite = About::first();
-        View::composer('*', function ($view) use($config){
-            $adminLogin = Auth::user();
-            $data = [
-                'adminLogin'=> $adminLogin,
-                'config'=> $config
-            ];
-            $view->with($data);
-        });
+//        View::composer('*', function ($view) use($config){
+//            $adminLogin = Auth::user();
+//            $data = [
+//                'adminLogin'=> $adminLogin,
+//                'config'=> $config
+//            ];
+//            $view->with($data);
+//        });
     }
 }
