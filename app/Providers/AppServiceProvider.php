@@ -2,7 +2,11 @@
 
 namespace App\Providers;
 
+use App\Models\Config;
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Pagination\Paginator;
+use Illuminate\Support\Facades\View;
+use Illuminate\Support\Facades\Auth;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -24,5 +28,24 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         //
+        Paginator::useBootstrap();
+//        $bannerApp = Banner::where('status', 1)->first();
+//        // Logo
+//        $logoWebsite = Banner::where('status', 1)->where('type', 5)->first();
+//        $contactFooter = About::first();
+//        //Config
+        $config = Config::first();
+//        $links = Link::where('status',1)->orderBy('created_at', 'asc')->get();
+//        $categories = Category::where('status', 1)->where('level', 1)->orderBy('order', 'asc')->get();
+//        // Lien he
+//        $contactWebsite = About::first();
+        View::composer('*', function ($view) use($config){
+            $adminLogin = Auth::user();
+            $data = [
+                'adminLogin'=> $adminLogin,
+                'config'=> $config
+            ];
+            $view->with($data);
+        });
     }
 }

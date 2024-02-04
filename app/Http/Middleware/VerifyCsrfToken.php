@@ -13,5 +13,7 @@ class VerifyCsrfToken extends Middleware
      */
     protected $except = [
         //
+        '/request-quote',
+        '/send-contact'
     ];
 }
