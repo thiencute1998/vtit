@@ -114,5 +114,7 @@
     </div>
 @endsection
 <style>
-    ul.product-list li{ width: 30%; float: left}
+    ul.product-list {list-style: none;}
+    ul.product-list li{ width: 30%; float: left; margin-right: 10px; text-align: center;}
+
 </style>
