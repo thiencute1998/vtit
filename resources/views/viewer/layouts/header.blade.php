@@ -12,7 +12,6 @@
         <!-- .header_placeholder 4sticky  -->
         <div class="header_placeholder"></div>
         <div class="wpml-ls-statics-shortcode_actions wpml-ls wpml-ls-legacy-list-horizontal">
-
         </div>
         <div id="Top_bar" class="loading">
             <div class="container">
