@@ -9,7 +9,8 @@ class About extends Model
 {
     use HasFactory;
 
-    protected $fillable = ["content"];
+    protected $table = 'about_us';
+    protected $fillable = ['about',	'contact', 'quoteimg', 'quote', 'map',	'products',	'applications'];
 
     public $timestamps = false;
 }

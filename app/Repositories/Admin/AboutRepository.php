@@ -4,6 +4,7 @@ namespace App\Repositories\Admin;
 
 use App\Models\About;
 use App\Repositories\BaseRepository;
+use Illuminate\Support\Facades\Log;
 
 class AboutRepository extends BaseRepository {
     public function model()

@@ -20,7 +20,7 @@ class AboutController extends Controller
     }
 
     public function update(Request $request) {
-        $params = $request->only("content");
+        $params = $request->all();
         $this->repository->update($params);
         return redirect()->back()->with('edit-success', 'Update about success !!!');
     }
