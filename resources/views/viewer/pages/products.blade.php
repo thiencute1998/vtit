@@ -80,15 +80,15 @@
                                     @foreach($product->productDetails as $detail)
                                             <li>
                                                 <div>
-                                                    <a href="{{route('get-products', ['slug'=> $detail->slug])}}"
+                                                    <a href="{{route('slug', ['slug'=> $product->slug])}}"
                                                        class="tacpham-main-img"><img
-                                                            src="{{asset('upload/admin/products/image/' . $detail->image)}}"
+                                                            src="{{asset('upload/admin/Product/image/' . $detail->image)}}"
                                                             title="{{$detail->name}}">
                                                     </a>
                                                 </div>
                                                 <div class="book-infor">
                                                     <div class="prodouct-name">
-                                                        <a href="{{route('get-products', ['slug'=> $detail->slug])}}"
+                                                        <a href="{{route('slug', ['slug'=> $product->slug])}}"
                                                            title="{{$detail->name}}">
                                                             {{$detail->name}} </a>
                                                     </div>
