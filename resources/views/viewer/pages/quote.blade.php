@@ -17,9 +17,11 @@
                                 <div class="mcb-wrap-inner">
                                     <div class="column mcb-column one column_image ">
                                         <div class="image_frame image_item no_link scale-with-grid no_border">
-                                            <div class="image_wrapper"><img class="scale-with-grid"
-                                                                            src="https://starpoltrading.com/wp-content/uploads/2020/12/shutterstock_656807536-e1608537411947.jpg"
-                                                                            alt=""></div>
+                                            <div class="image_wrapper">
+                                                @if($contactWebsite)
+                                                    {!! $contactWebsite->quoteimg !!}
+                                                @endif
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -32,11 +34,10 @@
                             <div class="wrap mcb-wrap one  valign-top clearfix" style="background-color:#ffffff">
                                 <div class="mcb-wrap-inner">
                                     <div class="column mcb-column one-third column_column  column-margin-">
-                                        <div class="column_attr clearfix" style=" padding:30px 15% 0 20px;"><h4
-                                                style="color:#085895">Request a Quote/Sample</h4>
-                                            At Starpol we strive to offer quality products and great customer service.
-                                            Please fill-up the form to request a quote or to request a sample of our
-                                            products.
+                                        <div class="column_attr clearfix" style=" padding:30px 15% 0 20px;">
+                                            @if($contactWebsite)
+                                                {!! $contactWebsite->quote !!}
+                                            @endif
                                         </div>
                                     </div>
                                     <div class="column mcb-column two-third column_column  column-margin-">

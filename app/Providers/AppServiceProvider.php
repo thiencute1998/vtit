@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Models\About;
 use App\Models\Config;
 use App\Models\Product;
 use Illuminate\Support\ServiceProvider;
@@ -40,13 +41,14 @@ class AppServiceProvider extends ServiceProvider
 //        $links = Link::where('status',1)->orderBy('created_at', 'asc')->get();
 //        $categories = Category::where('status', 1)->where('level', 1)->orderBy('order', 'asc')->get();
 //        // Lien he
-//        $contactWebsite = About::first();
-        View::composer('*', function ($view) use($config, $menuProducts){
+        $contactWebsite = About::first();
+        View::composer('*', function ($view) use($config, $menuProducts, $contactWebsite){
             $adminLogin = Auth::user();
             $data = [
                 'adminLogin'=> $adminLogin,
                 'config'=> $config,
-                'menuProducts'=> $menuProducts
+                'menuProducts'=> $menuProducts,
+                'contactWebsite'=> $contactWebsite
             ];
             $view->with($data);
         });

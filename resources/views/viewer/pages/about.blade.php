@@ -10,7 +10,9 @@
                             <div class="wrap mcb-wrap one  valign-top clearfix"
                                  style="padding:40px 20px 20px 20px; background-color:#ffffff">
                                 <div class="mcb-wrap-inner">
-                                    {!! $about->content !!}
+                                    @if($contactWebsite)
+                                        {!! $contactWebsite->about !!}
+                                    @endif
                                 </div>
                             </div>
                         </div>
