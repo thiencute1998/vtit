@@ -20,8 +20,9 @@
     </script>
     <meta name='robots' content='max-image-preview:large' />
     <link rel='dns-prefetch' href='//fonts.googleapis.com' />
-    <link rel="stylesheet" type="text/css" href="{{asset('assets/viewer/style/6hkez.css')}}" media="all"/>
+{{--    <link rel="stylesheet" type="text/css" href="{{asset('assets/viewer/style/6hkez.css')}}" media="all"/>--}}
     <link rel="stylesheet" type="text/css" href="{{asset('assets/viewer/style/main.css')}}" media="all"/>
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/viewer/style/font-awesome.css')}}" media="all"/>
 
     <script type='text/javascript' src="{{asset('assets/viewer/js/jquery.min.js?ver=3.6.4')}}" id='jquery-core-js'></script>
     <script type='text/javascript' src="{{asset('assets/viewer/js/jquery-migrate.min.js?ver=3.4.0')}}" id='jquery-migrate-js'></script>
@@ -48,7 +49,7 @@
     <!-- #Footer -->
     @include("viewer.layouts.footer")
 </div><!-- #Wrapper -->
-<a id="back_to_top" class="button button_left button_js sticky scroll" href=""><span class="button_icon"><i class="icon-up-open-big"></i></span></a>
+<a id="back_to_top" class="button button_left button_js sticky scroll" href=""><span class="button_icon"><i class="fa fa-chevron-up"></i></span></a>
 
 
 <script type='text/javascript' src="{{ asset('assets/viewer/js/index.js?ver=5.7.7') }}" id='contact-form-7-js'></script>

@@ -5,7 +5,7 @@
             <div class="container">
                 <div class="column one">
                     <ul class="social"><li class="linkedin"><a  href="https://www.linkedin.com/company/starpol-trading-llc/" title="LinkedIn"><img src="https://starpoltrading.com/wp-content/uploads/2021/01/linked-in.png" style="width: 90px; margin-top: -13px;"></a></li></ul><ul class="contact_details">
-                        <li class="phone"><i class="icon-phone"></i><a href="tel:(888)970-1403">(888) 970-1403</a></li><li class="mail"><i class="icon-mail-line"></i><a href="mailto:info@starpoltrading.com">info@starpoltrading.com</a></li>				</ul>
+                        <li class="phone"><i class="fa fa-phone"></i><a href="tel:(888)970-1403">(888) 970-1403</a></li><li class="mail"><i class="fa fa-envelope-o"></i><a href="mailto:info@starpoltrading.com">info@starpoltrading.com</a></li>				</ul>
                 </div>
             </div>
         </div>

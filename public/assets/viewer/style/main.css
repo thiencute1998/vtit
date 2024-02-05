@@ -225,7 +225,7 @@ a.button,a.tp-button,button,input[type="submit"],input[type="reset"],input[type=
     overflow: hidden;
     -webkit-box-shadow: inset 0 0 0 1px rgba(0,0,0,.03);
     box-shadow: inset 0 0 0 1px rgba(0,0,0,.03);
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/box_shadow_button.png);
+    background-image: url(images/box_shadow_button.png);
     background-repeat: repeat-x
 }
 
@@ -627,8 +627,8 @@ a:hover.tp-button.lightgrey {
 
 @font-face {
     font-family: 'mfn-icons';
-    src: url('../fonts/mfn-icons.eot?43420957');
-    src: url('../fonts/mfn-icons.eot?43420957#iefix') format("embedded-opentype"),url('../fonts/mfn-icons.woff?43420957') format("woff"),url('../fonts/mfn-icons.ttf?43420957') format("truetype"),url('../fonts/mfn-icons.svg?43420957#mfn-icons') format("svg");
+    src: url('fonts/mfn-icons.eot?43420957');
+    src: url('fonts/mfn-icons.eot?43420957#iefix') format("embedded-opentype"),url('fonts/mfn-icons.woff?43420957') format("woff"),url('fonts/mfn-icons.ttf?43420957') format("truetype"),url('fonts/mfn-icons.svg?43420957#mfn-icons') format("svg");
     font-weight: 400;
     font-style: normal
 }
@@ -2402,7 +2402,7 @@ a:hover.tp-button.lightgrey {
     width: 50px!important;
     height: 44px!important;
     padding: 0!important;
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/contact_form_error.png)!important;
+    background: url(images/contact_form_error.png)!important;
     overflow: hidden;
     text-indent: -9999px!important;
     padding: 0;
@@ -2591,7 +2591,7 @@ span.wpcf7-form-control-wrap .wpcf7-date,span.wpcf7-form-control-wrap .wpcf7-qui
 
 #edd_checkout_cart .edd_cart_header_row th {
     font-weight: 700;
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/bg_panel.png) repeat-x left top;
+    background: url(images/bg_panel.png) repeat-x left top;
     padding: 10px
 }
 
@@ -2773,13 +2773,13 @@ a.tribe-events-ical {
 }
 
 #tribe-bar-form {
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/stripes/stripes_5_b.png)
+    background-image: url(images/stripes_5_b.png)
 }
 
 .tribe-events-back {
     padding: 15px 10px;
     margin-bottom: 20px;
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/stripes/stripes_5_b.png);
+    background-image: url(images/stripes_5_b.png);
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -3435,7 +3435,7 @@ body.admin-bar {
 .under-construction .section-uc-2 {
     padding-top: 40px;
     background-color: #f5f5f5;
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/stripes/stripes_3_b.png) repeat center
+    background: url(images/stripes_3_b.png) repeat center
 }
 
 .under-construction .section-uc-3 {
@@ -3560,11 +3560,11 @@ body.nice-scroll:not(.layout-boxed) {
 }
 
 .tp-leftarrow.round,.tp-leftarrow.navbar {
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/tp-leftarrow.png)
+    background-image: url(images/tp-leftarrow.png)
 }
 
 .tp-rightarrow.round,.tp-rightarrow.navbar {
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/tp-rightarrow.png)
+    background-image: url(images/tp-rightarrow.png)
 }
 
 .tparrows.round:after {
@@ -3607,7 +3607,7 @@ body.nice-scroll:not(.layout-boxed) {
     left: 0;
     bottom: -3px;
     z-index: 1;
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/box_shadow.png) repeat-x left top
+    background: url(images/box_shadow.png) repeat-x left top
 }
 
 #Sliding-top .widgets_wrapper {
@@ -3737,7 +3737,7 @@ body.nice-scroll:not(.layout-boxed) {
     -webkit-border-radius: 5px;
     border-radius: 5px;
     background-color: #f8f8f8;
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/stripes/stripes_3_b.png)
+    background-image: url(images/stripes_3_b.png)
 }
 
 .pager .pages a,.pager .pages span.page-numbers {
@@ -3772,7 +3772,7 @@ body.nice-scroll:not(.layout-boxed) {
 }
 
 .pager_lm {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/preloader.gif) no-repeat center 17px;
+    background: url(images/preloader.gif) no-repeat center 17px;
     text-align: center
 }
 
@@ -3929,7 +3929,7 @@ body.nice-scroll:not(.layout-boxed) {
 
 .fixed-nav.format-quote .photo {
     background-color: #eee;
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/blockquote.png);
+    background-image: url(images/blockquote.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 50% auto
@@ -3941,7 +3941,7 @@ body.nice-scroll:not(.layout-boxed) {
 
 .fixed-nav.format-link .photo {
     background-color: #eee;
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/link.png);
+    background-image: url(images/link.png);
     background-position: center center;
     background-repeat: no-repeat
 }
@@ -3974,7 +3974,7 @@ body.nice-scroll:not(.layout-boxed) {
     padding: 15px;
     margin: 0;
     font-size: 100%;
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/stripes/stripes_5_b.png);
+    background-image: url(images/stripes_5_b.png);
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -4494,7 +4494,7 @@ body.minimalist-header.header-below:not(.template-slider) #Header {
     position: absolute;
     left: -10px;
     top: 2px;
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/top_bar_right_shadow.png);
+    background-image: url(images/top_bar_right_shadow.png);
     background-repeat: repeat-y;
     -moz-transform: skewX(0deg) skewY(-25deg);
     -webkit-transform: skewX(0deg) skewY(-25deg);
@@ -4811,7 +4811,7 @@ body:not(.button-stroke) #Top_bar a.button.action_button {
     z-index: 205;
     margin: 0;
     display: none;
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/box_shadow.png);
+    background-image: url(images/box_shadow.png);
     background-repeat: repeat-x;
     background-position: left top
 }
@@ -5073,19 +5073,19 @@ body:not(.button-stroke) #Top_bar a.button.action_button {
         margin-top: -5px;
     }
 
-    //.header-fixed #Top_bar #header_cart {
+    .header-fixed #Top_bar #header_cart {
         top: 27px;
     }
 
-    //.header-fixed #Top_bar #search_button {
+    .header-fixed #Top_bar #search_button {
         top: 25px;
     }
 
-    //.header-fixed #Top_bar .wpml-languages {
+    .header-fixed #Top_bar .wpml-languages {
         top: 15px;
     }
 
-    //.header-fixed #Top_bar a.button.action_button {
+    .header-fixed #Top_bar a.button.action_button {
         top: 13px;
     }
 
@@ -5093,7 +5093,7 @@ body:not(.button-stroke) #Top_bar a.button.action_button {
         display: none;
     }
 
-    //.header-fixed #Top_bar .responsive-menu-toggle {
+    .header-fixed #Top_bar .responsive-menu-toggle {
         top: 12px;
     }
 
@@ -5788,7 +5788,7 @@ body.header-stack:not(.template-slider) #Header {
     left: 0;
     bottom: -3px;
     z-index: 1;
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/box_shadow.png) repeat-x left top
+    background: url(images/box_shadow.png) repeat-x left top
 }
 
 #Subheader ul.woocommerce-breadcrumb li:last-child span {
@@ -6265,7 +6265,7 @@ body.header-stack:not(.template-slider) #Header {
 }
 
 .masonry.tiles .post-item:not(.no-img) .post-desc-wrapper .post-desc {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/blog_masonry_tile_gradient.png) top left repeat-x;
+    background: url(images/blog_masonry_tile_gradient.png) top left repeat-x;
     padding: 70px 30px 30px;
 }
 
@@ -6422,7 +6422,7 @@ body.header-stack:not(.template-slider) #Header {
     padding-left: 200px;
     margin-bottom: 0;
     padding-bottom: 40px;
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/timeline_right.png) no-repeat 90px top;
+    background: url(images/timeline_right.png) no-repeat 90px top;
 }
 
 .timeline .post-item:last-child {
@@ -6602,7 +6602,7 @@ body.header-stack:not(.template-slider) #Header {
 .post-nav {
     padding: 10px 10px 4px 130px;
     margin-bottom: 20px;
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/stripes/stripes_5_b.png);
+    background-image: url(images/stripes_5_b.png);
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -6914,7 +6914,7 @@ body.header-stack:not(.template-slider) #Header {
 .section-post-related .format-link .image_frame {
     height: 180px;
     background-color: rgba(255,255,255,.5);
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/link.png);
+    background-image: url(images/link.png);
     background-position: center center;
     background-repeat: no-repeat
 }
@@ -6923,7 +6923,7 @@ body.header-stack:not(.template-slider) #Header {
     display: block;
     height: 180px;
     background-color: rgba(255,255,255,.5);
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/photo.png);
+    background-image: url(images/photo.png);
     background-position: center center;
     background-repeat: no-repeat
 }
@@ -7260,14 +7260,14 @@ body.header-stack:not(.template-slider) #Header {
 
 .Recent_posts ul li.format-link .photo {
     background-color: #eee;
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/link.png);
+    background-image: url(images/link.png);
     background-position: center center;
     background-repeat: no-repeat
 }
 
 .Recent_posts ul li.format-quote .photo {
     background-color: #eee;
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/blockquote.png);
+    background-image: url(images/blockquote.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 40% auto
@@ -7408,7 +7408,7 @@ body.header-stack:not(.template-slider) #Header {
 
 .widget_mfn_recent_comments ul li {
     padding-bottom: 15px;
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/recent_comments.png) no-repeat 4px top;
+    background: url(images/recent_comments.png) no-repeat 4px top;
     padding-left: 40px;
     position: relative
 }
@@ -7450,7 +7450,7 @@ body.header-stack:not(.template-slider) #Header {
 .widget_recent_comments ul li {
     padding-bottom: 5px;
     padding-top: 6px;
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/recent_comments.png) no-repeat 4px top;
+    background: url(images/recent_comments.png) no-repeat 4px top;
     padding-left: 40px;
     position: relative
 }
@@ -8606,7 +8606,7 @@ body:not(.with_aside) .portfolio_group.list .portfolio-item .portfolio-item-fw-w
     -webkit-border-radius: 1px;
     -moz-border-radius: 1px;
     border-radius: 3px;
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/stripes/stripes_10_w.png)
+    background-image: url(images/stripes_10_w.png)
 }
 
 #comments .commentlist > li .reply a:hover.comment-reply-link {
@@ -8815,7 +8815,7 @@ body.error404:not(.events-archive) #Content {
 }
 
 .portfolio_slider_ul,ul.testimonials-slider {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/preloader.gif) no-repeat center center
+    background: url(images/preloader.gif) no-repeat center center
 }
 
 .portfolio_slider_ul li,ul.testimonials-slider > * {
@@ -8857,7 +8857,7 @@ ul.testimonials-slider {
     height: 100%;
     width: 100%;
     z-index: 3;
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/videomask.png) repeat center
+    background: url(images/videomask.png) repeat center
 }
 
 .section.has-video .section_video video {
@@ -9044,7 +9044,7 @@ ul.testimonials-slider {
 }
 
 .dark .fancy_heading_line {
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/fancy_heading_hr_dark.png)
+    background-image: url(images/fancy_heading_hr_dark.png)
 }
 
 .dark .content_slider.flat a.button .button_icon i {
@@ -9075,7 +9075,7 @@ a {
     text-decoration: underline
 }
 
-;.dropcap {
+.dropcap {
     display: inline-block;
     float: left;
     width: 35px;
@@ -9086,7 +9086,7 @@ a {
     text-align: center;
     -webkit-border-radius: 5px;
     border-radius: 5px;
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/stripes/stripes_10_w.png)
+    background-image: url(images/stripes_10_w.png)
 }
 
 .dropcap_circle {
@@ -9116,7 +9116,7 @@ a {
     padding: 1px 7px;
     -webkit-border-radius: 3px;
     border-radius: 3px;
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/stripes/stripes_10_w.png)
+    background-image: url(images/stripes_10_w.png)
 }
 
 .highlight.highlight_image {
@@ -9145,7 +9145,7 @@ a {
     bottom: 110%;
     z-index: 98;
     margin-left: -85px;
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/stripes/stripes_10_w.png)
+    background-image: url(images/stripes_10_w.png)
 }
 
 .tooltip.tooltip-img:after {
@@ -9166,7 +9166,7 @@ a {
     bottom: 110%;
     z-index: 98;
     margin-left: -165px;
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/stripes/stripes_10_w.png)
+    background-image: url(images/stripes_10_w.png)
 }
 
 .tooltip.tooltip-img:hover .tooltip-content,.tooltip.tooltip-img.hover .tooltip-content {
@@ -9194,7 +9194,7 @@ blockquote {
     margin: 0 0 35px 25px;
     top: 15px;
     position: relative;
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/stripes/textline.png) repeat-y
+    background: url(images/textline.png) repeat-y
 }
 
 blockquote:before {
@@ -9205,7 +9205,7 @@ blockquote:after {
     content: "";
     width: 55px;
     height: 40px;
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/blockquote.png);
+    background: url(images/blockquote.png);
     position: absolute;
     left: -25px;
     top: -15px
@@ -10083,15 +10083,15 @@ ul.list_mixed li:last-child:after,ul.list_check li:last-child:after,ul.list_star
 }
 
 ul.list_check li,li.list_check {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/icons/list_check.png) no-repeat 20px 5px
+    background: url(images/list_check.png) no-repeat 20px 5px
 }
 
 ul.list_star li,li.list_star {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/icons/list_star.png) no-repeat 20px 5px
+    background: url(images/list_star.png) no-repeat 20px 5px
 }
 
 ul.list_idea li,li.list_idea {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/icons/list_idea.png) no-repeat 20px 6px
+    background: url(images/list_idea.png) no-repeat 20px 6px
 }
 
 dl {
@@ -10588,7 +10588,7 @@ a.mfn-link-2 span,a:hover.mfn-link-2 span:before,a.hover.mfn-link-2 span:before,
     border-width: 0;
     border-style: solid;
     cursor: pointer;
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/bg_panel.png);
+    background-image: url(images/bg_panel.png);
     background-repeat: repeat-x;
     background-position: left top
 }
@@ -10634,7 +10634,7 @@ a.mfn-link-2 span,a:hover.mfn-link-2 span:before,a.hover.mfn-link-2 span:before,
     padding: 15px 20px 20px;
     overflow: hidden;
     display: none;
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/box_shadow.png);
+    background-image: url(images/box_shadow.png);
     background-repeat: repeat-x;
     background-position: left top
 }
@@ -10794,7 +10794,7 @@ table th,table td {
 
 table th {
     font-weight: 700;
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/bg_panel.png) repeat-x left top
+    background: url(images/bg_panel.png) repeat-x left top
 }
 
 table th.clear {
@@ -10803,7 +10803,7 @@ table th.clear {
 }
 
 table tr:first-child td {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/box_shadow.png) repeat-x left top
+    background: url(images/box_shadow.png) repeat-x left top
 }
 
 table tr:nth-child(2n) td {
@@ -10965,7 +10965,7 @@ body.table-hover:not(.woocommerce-page) table tr:hover td {
     float: left;
     -webkit-border-radius: 100%;
     border-radius: 100%;
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/stripes/stripes_3_b.png);
+    background-image: url(images/stripes_3_b.png);
     -webkit-box-shadow: inset 0 0 5px 0 rgba(0,0,0,.08);
     box-shadow: inset 0 0 5px 0 rgba(0,0,0,.08)
 }
@@ -10983,7 +10983,7 @@ body.table-hover:not(.woocommerce-page) table tr:hover td {
 .list_item.lists_1 .list_left {
     -webkit-border-radius: 5px;
     border-radius: 5px;
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/stripes/stripes_3_b.png);
+    background-image: url(images/stripes_3_b.png);
     -webkit-box-shadow: inset 0 0 5px 0 rgba(0,0,0,.1);
     box-shadow: inset 0 0 5px 0 rgba(0,0,0,.1)
 }
@@ -11722,7 +11722,7 @@ body.table-hover:not(.woocommerce-page) table tr:hover td {
 
     .offer_thumb .slider_pagination a.selected {
         background-color: #fff;
-        background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/stripes/stripes_3_b.png)
+        background-image: url(images/stripes_3_b.png)
     }
 
     .offer_thumb .slider_pagination a img {
@@ -12013,7 +12013,7 @@ body.table-hover:not(.woocommerce-page) table tr:hover td {
     display: block;
     -webkit-border-radius: 100%;
     border-radius: 100%;
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/stripes/stripes_3_b.png)
+    background-image: url(images/stripes_3_b.png)
 }
 
 .icon_box .icon_wrapper i {
@@ -12132,7 +12132,7 @@ body.table-hover:not(.woocommerce-page) table tr:hover td {
     float: left;
     padding: 10px 15px;
     background-color: #f8f8f8;
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/stripes/stripes_3_b.png);
+    background-image: url(images/stripes_3_b.png);
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box
@@ -12413,7 +12413,7 @@ body.table-hover:not(.woocommerce-page) table tr:hover td {
 
 .counter {
     padding: 20px;
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/stripes/stripes_10_b.png);
+    background-image: url(images/stripes_10_b.png);
     text-align: center;
     position: relative
 }
@@ -12494,7 +12494,7 @@ body.table-hover:not(.woocommerce-page) table tr:hover td {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     background-color: #fff;
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/stripes/stripes_3_b.png)
+    background-image: url(images/stripes_3_b.png)
 }
 
 .chart_box .chart {
@@ -12603,7 +12603,7 @@ body.table-hover:not(.woocommerce-page) table tr:hover td {
 .progress_bars .bars_list li .bar .progress {
     display: block;
     height: 100%;
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/progressbar.png);
+    background-image: url(images/progressbar.png);
     -webkit-box-shadow: inset 0 0 2px 2px rgba(0,0,0,0.04);
     box-shadow: inset 0 0 2px 2px rgba(0,0,0,0.04)
 }
@@ -12722,7 +12722,7 @@ body.table-hover:not(.woocommerce-page) table tr:hover td {
     margin-bottom: 15px;
     -webkit-border-radius: 3px;
     border-radius: 3px;
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/stripes/stripes_10_w.png)
+    background-image: url(images/stripes_10_w.png)
 }
 
 .trailer_box:hover .desc .subtitle {
@@ -13088,7 +13088,7 @@ a:hover.content_link:before {
 
 a:hover.content_link {
     text-decoration: none;
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/stripes/stripes_3_b.png)
+    background-image: url(images/stripes_3_b.png)
 }
 
 a.content_link:after,a.content_link:before {
@@ -13107,7 +13107,7 @@ a.icon_bar {
     border-style: solid;
     position: relative;
     background-color: #fff;
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/stripes/stripes_3_b.png);
+    background-image: url(images/stripes_3_b.png);
     -webkit-box-shadow: inset 0 0 5px 0 rgba(0,0,0,.08);
     box-shadow: inset 0 0 5px 0 rgba(0,0,0,.08)
 }
@@ -13282,7 +13282,7 @@ a.icon_bar_dribbble span.b {
 .infobox ul li:before {
     content: "";
     display: block;
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/icons/list_check.png) no-repeat;
+    background: url(images/list_check.png) no-repeat;
     width: 16px;
     height: 16px;
     position: absolute;
@@ -13344,7 +13344,7 @@ a.icon_bar_dribbble span.b {
     padding: 5px 11px;
     -webkit-border-radius: 4px;
     border-radius: 4px;
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/stripes/stripes_3_b.png);
+    background-image: url(images/stripes_3_b.png);
     background-color: #f8f8f8
 }
 
@@ -13367,7 +13367,7 @@ a.icon_bar_dribbble span.b {
 .timeline_items {
     margin: 0!important;
     position: relative;
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/timeline_top.png) no-repeat top center;
+    background: url(images/timeline_top.png) no-repeat top center;
     padding-top: 9px
 }
 
@@ -13393,12 +13393,12 @@ a.icon_bar_dribbble span.b {
     width: 45%;
     padding: 0 0 25px 55%;
     position: relative;
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/timeline_right.png) no-repeat top center
+    background: url(images/timeline_right.png) no-repeat top center
 }
 
 .timeline_items li:nth-child(even) {
     padding: 0 55% 25px 0;
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/timeline_left.png) no-repeat top center
+    background: url(images/timeline_left.png) no-repeat top center
 }
 
 .timeline_items li h3 {
@@ -13441,7 +13441,7 @@ a.icon_bar_dribbble span.b {
     position: relative;
     font-size: 15px;
     line-height: 31px;
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/stripes/textline.png) repeat-y
+    background: url(images/stripes/textline.png) repeat-y
 }
 
 .timeline_items li .desc:before {
@@ -13451,7 +13451,7 @@ a.icon_bar_dribbble span.b {
     position: absolute;
     left: -122%;
     top: 0;
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/stripes/stripes_10_b.png)
+    background-image: url(images/stripes/stripes_10_b.png)
 }
 
 .timeline_items li:nth-child(even) .desc:before {
@@ -13673,7 +13673,7 @@ a.icon_bar_dribbble span.b {
 }
 
 .fancy_heading_line {
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/fancy_heading_hr.png);
+    background-image: url(images/fancy_heading_hr.png);
     background-position: bottom center;
     background-repeat: no-repeat;
     padding-bottom: 15px
@@ -13972,7 +13972,7 @@ ul.clients li .client_wrapper,ul.clients li .client_wrapper img {
 .blog_slider .blog_slider_ul li.format-link .item_wrapper .image_frame {
     height: 180px;
     background-color: rgba(255,255,255,.5);
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/link.png);
+    background-image: url(images/link.png);
     background-position: center center;
     background-repeat: no-repeat
 }
@@ -14841,7 +14841,7 @@ ul.portfolio_grid li .image_frame {
     padding: 2px 5px;
     -webkit-border-radius: 4px;
     border-radius: 4px;
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/stripes/stripes_3_b.png)
+    background-image: url(images/stripes_3_b.png)
 }
 
 .date_label:after,.timeline_items li h3 span:after {
@@ -20858,7 +20858,7 @@ a.icon_bar {
     background-repeat: no-repeat;
     width: 16px;
     height: 16px;
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/ui/images/ui-icons_222222_256x240.png)
+    background-image: url(images/ui-icons_222222_256x240.png)
 }
 
 .ui-widget-overlay {
@@ -20867,7 +20867,7 @@ a.icon_bar {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #aaa url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/ui/images/ui-bg_flat_0_aaaaaa_40x100.png) 50% 50% repeat-x;
+    background: #aaa url(images/ui-bg_flat_0_aaaaaa_40x100.png) 50% 50% repeat-x;
     opacity: .3;
     filter: Alpha(Opacity=30)
 }
@@ -20942,11 +20942,11 @@ a.icon_bar {
 }
 
 .ui-accordion .ui-state-default {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/ui/images/bg_widget_header.png) no-repeat 0 0
+    background: url(images/bg_widget_header.png) no-repeat 0 0
 }
 
 .ui-accordion .ui-state-hover {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/ui/images/bg_widget_header_active.png) no-repeat 0 0
+    background: url(images/bg_widget_header_active.png) no-repeat 0 0
 }
 
 .ui-tabs {
@@ -20962,7 +20962,7 @@ a.icon_bar {
 
 .ui-tabs .ui-tabs-nav {
     display: block;
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/bg_panel.png);
+    background-image: url(images/bg_panel.png);
     background-repeat: repeat-x;
     background-position: left top;
     border-style: solid;
@@ -21030,7 +21030,7 @@ a.icon_bar {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/box_shadow.png);
+    background-image: url(images/box_shadow.png);
     background-repeat: repeat-x;
     background-position: left top;
     border-width: 0;
@@ -21056,7 +21056,7 @@ a.icon_bar {
 }
 
 .ui-widget-content {
-    background: #fff url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/ui/images/ui-bg_flat_75_ffffff_40x100.png) 50% 50% repeat-x;
+    background: #fff url(images/ui-bg_flat_75_ffffff_40x100.png) 50% 50% repeat-x;
     border-style: solid;
     border-width: 1px
 }
@@ -21073,7 +21073,7 @@ a.icon_bar {
 
 .ui-state-highlight,.ui-widget-content .ui-state-highlight,.ui-widget-header .ui-state-highlight {
     border: 1px solid #fcefa1;
-    background: #fbf9ee url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/ui/images/ui-bg_glass_55_fbf9ee_1x400.png) 50% 50% repeat-x;
+    background: #fbf9ee url(images/ui-bg_glass_55_fbf9ee_1x400.png) 50% 50% repeat-x;
     color: #363636
 }
 
@@ -21083,7 +21083,7 @@ a.icon_bar {
 
 .ui-state-error,.ui-widget-content .ui-state-error,.ui-widget-header .ui-state-error {
     border: 1px solid #cd0a0a;
-    background: #fef1ec url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/ui/images/ui-bg_glass_95_fef1ec_1x400.png) 50% 50% repeat-x;
+    background: #fef1ec url(images/ui-bg_glass_95_fef1ec_1x400.png) 50% 50% repeat-x;
     color: #cd0a0a
 }
 
@@ -21104,15 +21104,15 @@ a.icon_bar {
 }
 
 .ui-state-default .ui-icon {
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/ui/images/ui-icons_888888_256x240.png)
+    background-image: url(images/ui-icons_888888_256x240.png)
 }
 
 .ui-state-highlight .ui-icon {
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/ui/images/ui-icons_2e83ff_256x240.png)
+    background-image: url(images/ui-icons_2e83ff_256x240.png)
 }
 
 .ui-state-error .ui-icon,.ui-state-error-text .ui-icon {
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/ui/images/ui-icons_cd0a0a_256x240.png)
+    background-image: url(images/ui-icons_cd0a0a_256x240.png)
 }
 
 .ui-icon-carat-1-n {
@@ -21850,7 +21850,7 @@ a.icon_bar {
 }
 
 .ui-widget-shadow {
-    background: #aaa url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/ui/images/ui-bg_flat_0_aaaaaa_40x100.png) 50% 50% repeat-x;
+    background: #aaa url(images/ui-bg_flat_0_aaaaaa_40x100.png) 50% 50% repeat-x;
     opacity: .3;
     filter: Alpha(Opacity=30);
     -moz-border-radius: 8px;
@@ -21874,11 +21874,11 @@ a.icon_bar {
 }
 
 .ui-widget-content .ui-icon,.ui-widget-header .ui-icon {
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/ui/images/ui-icons_222222_256x240.png)
+    background-image: url(images/ui-icons_222222_256x240.png)
 }
 
 .ui-state-hover .ui-icon,.ui-state-focus .ui-icon,.ui-state-active .ui-icon {
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/ui/images/ui-icons_454545_256x240.png)
+    background-image: url(images/ui-icons_454545_256x240.png)
 }
 
 .ui-icon-seek-start,.ui-icon-seek-first {
@@ -21953,7 +21953,7 @@ a.icon_bar {
         height: auto;
         padding-left: 20px;
         padding-right: 20px;
-        background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/bg_panel.png);
+        background-image: url(images/bg_panel.png);
         background-repeat: repeat-x;
         background-position: left top
     }
@@ -21984,15 +21984,15 @@ div.pp_default .pp_top,div.pp_default .pp_top .pp_middle,div.pp_default .pp_top 
 }
 
 div.pp_default .pp_top .pp_left {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/default/sprite.png) -78px -93px no-repeat
+    background: url(images/sprite.png) -78px -93px no-repeat
 }
 
 div.pp_default .pp_top .pp_middle {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/default/sprite_x.png) top left repeat-x
+    background: url(images/sprite_x.png) top left repeat-x
 }
 
 div.pp_default .pp_top .pp_right {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/default/sprite.png) -112px -93px no-repeat
+    background: url(images/sprite.png) -112px -93px no-repeat
 }
 
 div.pp_default .pp_content .ppt {
@@ -22000,58 +22000,58 @@ div.pp_default .pp_content .ppt {
 }
 
 div.pp_default .pp_content_container .pp_left {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/default/sprite_y.png) -7px 0 repeat-y;
+    background: url(images/sprite_y.png) -7px 0 repeat-y;
     padding-left: 13px
 }
 
 div.pp_default .pp_content_container .pp_right {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/default/sprite_y.png) top right repeat-y;
+    background: url(images/sprite_y.png) top right repeat-y;
     padding-right: 13px
 }
 
 div.pp_default .pp_next:hover {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/default/sprite_next.png) center right no-repeat;
+    background: url(images/sprite_next.png) center right no-repeat;
     cursor: pointer
 }
 
 div.pp_default .pp_previous:hover {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/default/sprite_prev.png) center left no-repeat;
+    background: url(images/sprite_prev.png) center left no-repeat;
     cursor: pointer
 }
 
 div.pp_default .pp_expand {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/default/sprite.png) 0 -29px no-repeat;
+    background: url(images/sprite.png) 0 -29px no-repeat;
     cursor: pointer;
     width: 28px;
     height: 28px
 }
 
 div.pp_default .pp_expand:hover {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/default/sprite.png) 0 -56px no-repeat;
+    background: url(images/sprite.png) 0 -56px no-repeat;
     cursor: pointer
 }
 
 div.pp_default .pp_contract {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/default/sprite.png) 0 -84px no-repeat;
+    background: url(images/sprite.png) 0 -84px no-repeat;
     cursor: pointer;
     width: 28px;
     height: 28px
 }
 
 div.pp_default .pp_contract:hover {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/default/sprite.png) 0 -113px no-repeat;
+    background: url(images/sprite.png) 0 -113px no-repeat;
     cursor: pointer
 }
 
 div.pp_default .pp_close {
     width: 30px;
     height: 30px;
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/default/sprite.png) 2px 1px no-repeat;
+    background: url(images/sprite.png) 2px 1px no-repeat;
     cursor: pointer
 }
 
 div.pp_default .pp_gallery ul li a {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/default/default_thumb.png) center center #f8f8f8;
+    background: url(images/default_thumb.png) center center #f8f8f8;
     border: 1px solid #aaa
 }
 
@@ -22065,7 +22065,7 @@ div.pp_default .pp_gallery a.pp_arrow_previous,div.pp_default .pp_gallery a.pp_a
 }
 
 div.pp_default .pp_nav .pp_play,div.pp_default .pp_nav .pp_pause {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/default/sprite.png) -51px 1px no-repeat;
+    background: url(images/sprite.png) -51px 1px no-repeat;
     height: 30px;
     width: 30px
 }
@@ -22075,7 +22075,7 @@ div.pp_default .pp_nav .pp_pause {
 }
 
 div.pp_default a.pp_arrow_previous,div.pp_default a.pp_arrow_next {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/default/sprite.png) -31px -3px no-repeat;
+    background: url(images/sprite.png) -31px -3px no-repeat;
     height: 20px;
     width: 20px;
     margin: 4px 0 0
@@ -22122,144 +22122,144 @@ div.pp_default .pp_description {
 }
 
 div.pp_default .pp_bottom .pp_left {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/default/sprite.png) -78px -127px no-repeat
+    background: url(images/sprite.png) -78px -127px no-repeat
 }
 
 div.pp_default .pp_bottom .pp_middle {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/default/sprite_x.png) bottom left repeat-x
+    background: url(images/sprite_x.png) bottom left repeat-x
 }
 
 div.pp_default .pp_bottom .pp_right {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/default/sprite.png) -112px -127px no-repeat
+    background: url(images/sprite.png) -112px -127px no-repeat
 }
 
 div.pp_default .pp_loaderIcon {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/default/loader.gif) center center no-repeat
+    background: url(images/loader.gif) center center no-repeat
 }
 
 div.light_rounded .pp_top .pp_left {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/light_rounded/sprite.png) -88px -53px no-repeat
+    background: url(images/sprite.png) -88px -53px no-repeat
 }
 
 div.light_rounded .pp_top .pp_right {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/light_rounded/sprite.png) -110px -53px no-repeat
+    background: url(images/sprite.png) -110px -53px no-repeat
 }
 
 div.light_rounded .pp_next:hover {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/light_rounded/btnNext.png) center right no-repeat;
+    background: url(images/btnNext.png) center right no-repeat;
     cursor: pointer
 }
 
 div.light_rounded .pp_previous:hover {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/light_rounded/btnPrevious.png) center left no-repeat;
+    background: url(images/btnPrevious.png) center left no-repeat;
     cursor: pointer
 }
 
 div.light_rounded .pp_expand {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/light_rounded/sprite.png) -31px -26px no-repeat;
+    background: url(images/sprite.png) -31px -26px no-repeat;
     cursor: pointer
 }
 
 div.light_rounded .pp_expand:hover {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/light_rounded/sprite.png) -31px -47px no-repeat;
+    background: url(images/sprite.png) -31px -47px no-repeat;
     cursor: pointer
 }
 
 div.light_rounded .pp_contract {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/light_rounded/sprite.png) 0 -26px no-repeat;
+    background: url(images/sprite.png) 0 -26px no-repeat;
     cursor: pointer
 }
 
 div.light_rounded .pp_contract:hover {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/light_rounded/sprite.png) 0 -47px no-repeat;
+    background: url(images/sprite.png) 0 -47px no-repeat;
     cursor: pointer
 }
 
 div.light_rounded .pp_close {
     width: 75px;
     height: 22px;
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/light_rounded/sprite.png) -1px -1px no-repeat;
+    background: url(images/sprite.png) -1px -1px no-repeat;
     cursor: pointer
 }
 
 div.light_rounded .pp_nav .pp_play {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/light_rounded/sprite.png) -1px -100px no-repeat;
+    background: url(images/sprite.png) -1px -100px no-repeat;
     height: 15px;
     width: 14px
 }
 
 div.light_rounded .pp_nav .pp_pause {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/light_rounded/sprite.png) -24px -100px no-repeat;
+    background: url(images/sprite.png) -24px -100px no-repeat;
     height: 15px;
     width: 14px
 }
 
 div.light_rounded .pp_arrow_previous {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/light_rounded/sprite.png) 0 -71px no-repeat
+    background: url(images/sprite.png) 0 -71px no-repeat
 }
 
 div.light_rounded .pp_arrow_next {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/light_rounded/sprite.png) -22px -71px no-repeat
+    background: url(images/sprite.png) -22px -71px no-repeat
 }
 
 div.light_rounded .pp_bottom .pp_left {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/light_rounded/sprite.png) -88px -80px no-repeat
+    background: url(images/sprite.png) -88px -80px no-repeat
 }
 
 div.light_rounded .pp_bottom .pp_right {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/light_rounded/sprite.png) -110px -80px no-repeat
+    background: url(images/sprite.png) -110px -80px no-repeat
 }
 
 div.dark_rounded .pp_top .pp_left {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/dark_rounded/sprite.png) -88px -53px no-repeat
+    background: url(images/sprite.png) -88px -53px no-repeat
 }
 
 div.dark_rounded .pp_top .pp_right {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/dark_rounded/sprite.png) -110px -53px no-repeat
+    background: url(images/sprite.png) -110px -53px no-repeat
 }
 
 div.dark_rounded .pp_content_container .pp_left {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/dark_rounded/contentPattern.png) top left repeat-y
+    background: url(images/contentPattern.png) top left repeat-y
 }
 
 div.dark_rounded .pp_content_container .pp_right {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/dark_rounded/contentPattern.png) top right repeat-y
+    background: url(images/contentPattern.png) top right repeat-y
 }
 
 div.dark_rounded .pp_next:hover {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/dark_rounded/btnNext.png) center right no-repeat;
+    background: url(images/btnNext.png) center right no-repeat;
     cursor: pointer
 }
 
 div.dark_rounded .pp_previous:hover {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/dark_rounded/btnPrevious.png) center left no-repeat;
+    background: url(images/btnPrevious.png) center left no-repeat;
     cursor: pointer
 }
 
 div.dark_rounded .pp_expand {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/dark_rounded/sprite.png) -31px -26px no-repeat;
+    background: url(images/sprite.png) -31px -26px no-repeat;
     cursor: pointer
 }
 
 div.dark_rounded .pp_expand:hover {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/dark_rounded/sprite.png) -31px -47px no-repeat;
+    background: url(images/sprite.png) -31px -47px no-repeat;
     cursor: pointer
 }
 
 div.dark_rounded .pp_contract {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/dark_rounded/sprite.png) 0 -26px no-repeat;
+    background: url(images/sprite.png) 0 -26px no-repeat;
     cursor: pointer
 }
 
 div.dark_rounded .pp_contract:hover {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/dark_rounded/sprite.png) 0 -47px no-repeat;
+    background: url(images/sprite.png) 0 -47px no-repeat;
     cursor: pointer
 }
 
 div.dark_rounded .pp_close {
     width: 75px;
     height: 22px;
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/dark_rounded/sprite.png) -1px -1px no-repeat;
+    background: url(images/sprite.png) -1px -1px no-repeat;
     cursor: pointer
 }
 
@@ -22269,35 +22269,35 @@ div.dark_rounded .pp_description {
 }
 
 div.dark_rounded .pp_nav .pp_play {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/dark_rounded/sprite.png) -1px -100px no-repeat;
+    background: url(images/sprite.png) -1px -100px no-repeat;
     height: 15px;
     width: 14px
 }
 
 div.dark_rounded .pp_nav .pp_pause {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/dark_rounded/sprite.png) -24px -100px no-repeat;
+    background: url(images/sprite.png) -24px -100px no-repeat;
     height: 15px;
     width: 14px
 }
 
 div.dark_rounded .pp_arrow_previous {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/dark_rounded/sprite.png) 0 -71px no-repeat
+    background: url(images/sprite.png) 0 -71px no-repeat
 }
 
 div.dark_rounded .pp_arrow_next {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/dark_rounded/sprite.png) -22px -71px no-repeat
+    background: url(images/sprite.png) -22px -71px no-repeat
 }
 
 div.dark_rounded .pp_bottom .pp_left {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/dark_rounded/sprite.png) -88px -80px no-repeat
+    background: url(images/sprite.png) -88px -80px no-repeat
 }
 
 div.dark_rounded .pp_bottom .pp_right {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/dark_rounded/sprite.png) -110px -80px no-repeat
+    background: url(images/sprite.png) -110px -80px no-repeat
 }
 
 div.dark_rounded .pp_loaderIcon {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/dark_rounded/loader.gif) center center no-repeat
+    background: url(images/loader.gif) center center no-repeat
 }
 
 div.dark_square .pp_left,div.dark_square .pp_middle,div.dark_square .pp_right,div.dark_square .pp_content {
@@ -22310,33 +22310,33 @@ div.dark_square .pp_description {
 }
 
 div.dark_square .pp_loaderIcon {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/dark_square/loader.gif) center center no-repeat
+    background: url(images/loader.gif) center center no-repeat
 }
 
 div.dark_square .pp_expand {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/dark_square/sprite.png) -31px -26px no-repeat;
+    background: url(images/sprite.png) -31px -26px no-repeat;
     cursor: pointer
 }
 
 div.dark_square .pp_expand:hover {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/dark_square/sprite.png) -31px -47px no-repeat;
+    background: url(images/sprite.png) -31px -47px no-repeat;
     cursor: pointer
 }
 
 div.dark_square .pp_contract {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/dark_square/sprite.png) 0 -26px no-repeat;
+    background: url(images/sprite.png) 0 -26px no-repeat;
     cursor: pointer
 }
 
 div.dark_square .pp_contract:hover {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/dark_square/sprite.png) 0 -47px no-repeat;
+    background: url(images/sprite.png) 0 -47px no-repeat;
     cursor: pointer
 }
 
 div.dark_square .pp_close {
     width: 75px;
     height: 22px;
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/dark_square/sprite.png) -1px -1px no-repeat;
+    background: url(images/sprite.png) -1px -1px no-repeat;
     cursor: pointer
 }
 
@@ -22345,136 +22345,136 @@ div.dark_square .pp_nav {
 }
 
 div.dark_square .pp_nav .pp_play {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/dark_square/sprite.png) -1px -100px no-repeat;
+    background: url(images/sprite.png) -1px -100px no-repeat;
     height: 15px;
     width: 14px
 }
 
 div.dark_square .pp_nav .pp_pause {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/dark_square/sprite.png) -24px -100px no-repeat;
+    background: url(images/sprite.png) -24px -100px no-repeat;
     height: 15px;
     width: 14px
 }
 
 div.dark_square .pp_arrow_previous {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/dark_square/sprite.png) 0 -71px no-repeat
+    background: url(images/sprite.png) 0 -71px no-repeat
 }
 
 div.dark_square .pp_arrow_next {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/dark_square/sprite.png) -22px -71px no-repeat
+    background: url(images/sprite.png) -22px -71px no-repeat
 }
 
 div.dark_square .pp_next:hover {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/dark_square/btnNext.png) center right no-repeat;
+    background: url(images/btnNext.png) center right no-repeat;
     cursor: pointer
 }
 
 div.dark_square .pp_previous:hover {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/dark_square/btnPrevious.png) center left no-repeat;
+    background: url(images/btnPrevious.png) center left no-repeat;
     cursor: pointer
 }
 
 div.light_square .pp_expand {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/light_square/sprite.png) -31px -26px no-repeat;
+    background: url(images/sprite.png) -31px -26px no-repeat;
     cursor: pointer
 }
 
 div.light_square .pp_expand:hover {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/light_square/sprite.png) -31px -47px no-repeat;
+    background: url(images/sprite.png) -31px -47px no-repeat;
     cursor: pointer
 }
 
 div.light_square .pp_contract {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/light_square/sprite.png) 0 -26px no-repeat;
+    background: url(images/sprite.png) 0 -26px no-repeat;
     cursor: pointer
 }
 
 div.light_square .pp_contract:hover {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/light_square/sprite.png) 0 -47px no-repeat;
+    background: url(images/sprite.png) 0 -47px no-repeat;
     cursor: pointer
 }
 
 div.light_square .pp_close {
     width: 75px;
     height: 22px;
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/light_square/sprite.png) -1px -1px no-repeat;
+    background: url(images/sprite.png) -1px -1px no-repeat;
     cursor: pointer
 }
 
 div.light_square .pp_nav .pp_play {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/light_square/sprite.png) -1px -100px no-repeat;
+    background: url(images/sprite.png) -1px -100px no-repeat;
     height: 15px;
     width: 14px
 }
 
 div.light_square .pp_nav .pp_pause {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/light_square/sprite.png) -24px -100px no-repeat;
+    background: url(images/sprite.png) -24px -100px no-repeat;
     height: 15px;
     width: 14px
 }
 
 div.light_square .pp_arrow_previous {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/light_square/sprite.png) 0 -71px no-repeat
+    background: url(images/sprite.png) 0 -71px no-repeat
 }
 
 div.light_square .pp_arrow_next {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/light_square/sprite.png) -22px -71px no-repeat
+    background: url(images/sprite.png) -22px -71px no-repeat
 }
 
 div.light_square .pp_next:hover {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/light_square/btnNext.png) center right no-repeat;
+    background: url(images/btnNext.png) center right no-repeat;
     cursor: pointer
 }
 
 div.light_square .pp_previous:hover {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/light_square/btnPrevious.png) center left no-repeat;
+    background: url(images/btnPrevious.png) center left no-repeat;
     cursor: pointer
 }
 
 div.facebook .pp_top .pp_left {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/facebook/sprite.png) -88px -53px no-repeat
+    background: url(images/sprite.png) -88px -53px no-repeat
 }
 
 div.facebook .pp_top .pp_middle {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/facebook/contentPatternTop.png) top left repeat-x
+    background: url(images/contentPatternTop.png) top left repeat-x
 }
 
 div.facebook .pp_top .pp_right {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/facebook/sprite.png) -110px -53px no-repeat
+    background: url(images/sprite.png) -110px -53px no-repeat
 }
 
 div.facebook .pp_content_container .pp_left {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/facebook/contentPatternLeft.png) top left repeat-y
+    background: url(images/contentPatternLeft.png) top left repeat-y
 }
 
 div.facebook .pp_content_container .pp_right {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/facebook/contentPatternRight.png) top right repeat-y
+    background: url(images/contentPatternRight.png) top right repeat-y
 }
 
 div.facebook .pp_expand {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/facebook/sprite.png) -31px -26px no-repeat;
+    background: url(images/sprite.png) -31px -26px no-repeat;
     cursor: pointer
 }
 
 div.facebook .pp_expand:hover {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/facebook/sprite.png) -31px -47px no-repeat;
+    background: url(images/sprite.png) -31px -47px no-repeat;
     cursor: pointer
 }
 
 div.facebook .pp_contract {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/facebook/sprite.png) 0 -26px no-repeat;
+    background: url(images/sprite.png) 0 -26px no-repeat;
     cursor: pointer
 }
 
 div.facebook .pp_contract:hover {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/facebook/sprite.png) 0 -47px no-repeat;
+    background: url(images/sprite.png) 0 -47px no-repeat;
     cursor: pointer
 }
 
 div.facebook .pp_close {
     width: 22px;
     height: 22px;
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/facebook/sprite.png) -1px -1px no-repeat;
+    background: url(images/sprite.png) -1px -1px no-repeat;
     cursor: pointer
 }
 
@@ -22483,11 +22483,11 @@ div.facebook .pp_description {
 }
 
 div.facebook .pp_loaderIcon {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/facebook/loader.gif) center center no-repeat
+    background: url(images/loader.gif) center center no-repeat
 }
 
 div.facebook .pp_arrow_previous {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/facebook/sprite.png) 0 -71px no-repeat;
+    background: url(images/sprite.png) 0 -71px no-repeat;
     height: 22px;
     margin-top: 0;
     width: 22px
@@ -22499,7 +22499,7 @@ div.facebook .pp_arrow_previous.disabled {
 }
 
 div.facebook .pp_arrow_next {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/facebook/sprite.png) -32px -71px no-repeat;
+    background: url(images/sprite.png) -32px -71px no-repeat;
     height: 22px;
     margin-top: 0;
     width: 22px
@@ -22520,37 +22520,37 @@ div.facebook .pp_nav p {
 }
 
 div.facebook .pp_nav .pp_play {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/facebook/sprite.png) -1px -123px no-repeat;
+    background: url(images/sprite.png) -1px -123px no-repeat;
     height: 22px;
     width: 22px
 }
 
 div.facebook .pp_nav .pp_pause {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/facebook/sprite.png) -32px -123px no-repeat;
+    background: url(images/sprite.png) -32px -123px no-repeat;
     height: 22px;
     width: 22px
 }
 
 div.facebook .pp_next:hover {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/facebook/btnNext.png) center right no-repeat;
+    background: url(images/btnNext.png) center right no-repeat;
     cursor: pointer
 }
 
 div.facebook .pp_previous:hover {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/facebook/btnPrevious.png) center left no-repeat;
+    background: url(images/btnPrevious.png) center left no-repeat;
     cursor: pointer
 }
 
 div.facebook .pp_bottom .pp_left {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/facebook/sprite.png) -88px -80px no-repeat
+    background: url(images/sprite.png) -88px -80px no-repeat
 }
 
 div.facebook .pp_bottom .pp_middle {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/facebook/contentPatternBottom.png) top left repeat-x
+    background: url(images/contentPatternBottom.png) top left repeat-x
 }
 
 div.facebook .pp_bottom .pp_right {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/facebook/sprite.png) -110px -80px no-repeat
+    background: url(images/sprite.png) -110px -80px no-repeat
 }
 
 div.pp_pic_holder a:focus {
@@ -22701,7 +22701,7 @@ a.pp_arrow_previous,a.pp_arrow_next {
 }
 
 .pp_gallery li.default a {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/facebook/default_thumbnail.gif) 0 0 no-repeat;
+    background: url(images/default_thumbnail.gif) 0 0 no-repeat;
     display: block;
     height: 33px;
     width: 50px
@@ -22712,7 +22712,7 @@ a.pp_arrow_previous,a.pp_arrow_next {
 }
 
 a.pp_next {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/light_rounded/btnNext.png) 10000px 10000px no-repeat;
+    background: url(images/btnNext.png) 10000px 10000px no-repeat;
     display: block;
     float: right;
     height: 100%;
@@ -22721,7 +22721,7 @@ a.pp_next {
 }
 
 a.pp_previous {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/light_rounded/btnNext.png) 10000px 10000px no-repeat;
+    background: url(images/btnNext.png) 10000px 10000px no-repeat;
     display: block;
     float: left;
     height: 100%;
@@ -22819,11 +22819,11 @@ div.light_rounded .pp_arrow_next.disabled,div.dark_rounded .pp_arrow_next.disabl
 }
 
 div.light_rounded .pp_loaderIcon,div.light_square .pp_loaderIcon {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/light_rounded/loader.gif) center center no-repeat
+    background: url(images/loader.gif) center center no-repeat
 }
 
 div.dark_rounded .pp_top .pp_middle,div.dark_rounded .pp_content,div.dark_rounded .pp_bottom .pp_middle {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/prettyPhoto/images/dark_rounded/contentPattern.png) top left repeat
+    background: url(images/contentPattern.png) top left repeat
 }
 
 div.dark_rounded .currentTextHolder,div.dark_square .currentTextHolder {
@@ -22981,7 +22981,7 @@ a:hover.jp-play,a:hover.jp-pause {
 }
 
 a.jp-play {
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/jplayer/css/jplayer.png);
+    background-image: url(images/jplayer.png);
     background-repeat: no-repeat;
     background-position: 0 0;
     left: 0px;
@@ -22990,13 +22990,13 @@ a.jp-play {
 }
 
 a.jp-play:hover {
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/jplayer/css/jplayer.png);
+    background-image: url(images/jplayer.png);
     background-repeat: no-repeat;
     background-position: 0 0;
 }
 
 a.jp-pause {
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/jplayer/css/jplayer.png);
+    background-image: url(images/jplayer.png);
     background-repeat: no-repeat;
     background-position: -45px 0;
     display: none;
@@ -23006,7 +23006,7 @@ a.jp-pause {
 }
 
 a.jp-pause:hover {
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/jplayer/css/jplayer.png);
+    background-image: url(images/jplayer.png);
     background-repeat: no-repeat;
     background-position: -45px 0;
 }
@@ -23017,7 +23017,7 @@ a.jp-stop, a.jp-previous, a.jp-next {
 }
 
 a.jp-stop {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/jplayer/css/jplayer.png) no-repeat scroll -60px 0 rgba(0,0,0,0);
+    background: url(images/jplayer.png) no-repeat scroll -60px 0 rgba(0,0,0,0);
     left: 60px;
     position: absolute;
     top: 23px;
@@ -23025,23 +23025,23 @@ a.jp-stop {
 }
 
 a.jp-stop:hover {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/jplayer/css/jplayer.png) no-repeat scroll -60px 0 rgba(0,0,0,0)
+    background: url(images/jplayer.png) no-repeat scroll -60px 0 rgba(0,0,0,0)
 }
 
 a.jp-previous {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/jplayer/css/jplayer.blue.monday.jpg) no-repeat scroll 0 -112px rgba(0,0,0,0)
+    background: url(images/jplayer.blue.monday.jpg) no-repeat scroll 0 -112px rgba(0,0,0,0)
 }
 
 a.jp-previous:hover {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/jplayer/css/jplayer.blue.monday.jpg) no-repeat scroll -29px -112px rgba(0,0,0,0)
+    background: url(images/jplayer.blue.monday.jpg) no-repeat scroll -29px -112px rgba(0,0,0,0)
 }
 
 a.jp-next {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/jplayer/css/jplayer.blue.monday.jpg) no-repeat scroll 0 -141px rgba(0,0,0,0)
+    background: url(images/jplayer.blue.monday.jpg) no-repeat scroll 0 -141px rgba(0,0,0,0)
 }
 
 a.jp-next:hover {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/jplayer/css/jplayer.blue.monday.jpg) no-repeat scroll -29px -141px rgba(0,0,0,0)
+    background: url(images/jplayer.blue.monday.jpg) no-repeat scroll -29px -141px rgba(0,0,0,0)
 }
 
 div.jp-progress {
@@ -23077,7 +23077,7 @@ div.jp-play-bar {
 }
 
 div.jp-seeking-bg {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/jplayer/css/jplayer.blue.monday.seeking.gif) repeat scroll 0 0 rgba(0,0,0,0)
+    background: url(images/jplayer.blue.monday.seeking.gif) repeat scroll 0 0 rgba(0,0,0,0)
 }
 
 a.jp-mute, a.jp-unmute, a.jp-volume-max {
@@ -23123,28 +23123,28 @@ div.jp-video a.jp-volume-max {
 }
 
 a.jp-unmute {
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/jplayer/css/jplayer.png);
+    background-image: url(images/jplayer.png);
     background-repeat: no-repeat;
     background-position: -235px 0;
     display: none
 }
 
 a.jp-unmute:hover {
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/jplayer/css/jplayer.png);
+    background-image: url(images/jplayer.png);
     background-repeat: no-repeat;
     background-position: -235px 0;
 }
 
 a.jp-volume-max {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/jplayer/css/jplayer.blue.monday.jpg) no-repeat scroll 0 -186px rgba(0,0,0,0)
+    background: url(images/jplayer.blue.monday.jpg) no-repeat scroll 0 -186px rgba(0,0,0,0)
 }
 
 a.jp-volume-max:hover {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/jplayer/css/jplayer.blue.monday.jpg) no-repeat scroll -19px -186px rgba(0,0,0,0)
+    background: url(images/jplayer.blue.monday.jpg) no-repeat scroll -19px -186px rgba(0,0,0,0)
 }
 
 div.jp-volume-bar {
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/jplayer/css/jplayer.png);
+    background-image: url(images/jplayer.png);
     background-repeat: no-repeat;
     background-position: -110px 0;
     cursor: pointer;
@@ -23181,7 +23181,7 @@ div.jp-video div.jp-volume-bar {
 }
 
 div.jp-volume-bar-value {
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/jplayer/css/jplayer.png);
+    background-image: url(images/jplayer.png);
     background-repeat: no-repeat;
     background-position: -155px 0;
     height: 45px;
@@ -23305,7 +23305,7 @@ div.jp-video-full div.jp-video-play {
 }
 
 a.jp-video-play-icon {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/jplayer/css/jplayer.png) no-repeat scroll -280px 0 rgba(0,0,0,0);
+    background: url(images/jplayer.png) no-repeat scroll -280px 0 rgba(0,0,0,0);
     display: block;
     height: 72px;
     left: 50%;
@@ -23318,7 +23318,7 @@ a.jp-video-play-icon {
 }
 
 div.jp-video-play:hover a.jp-video-play-icon {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/jplayer/css/jplayer.png) no-repeat scroll -352px 0 rgba(0,0,0,0)
+    background: url(images/jplayer.png) no-repeat scroll -352px 0 rgba(0,0,0,0)
 }
 
 div.jp-jplayer audio, div.jp-jplayer {
@@ -23379,37 +23379,37 @@ ul.jp-toggles li a {
 }
 
 a.jp-repeat {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/jplayer/css/jplayer.blue.monday.jpg) no-repeat scroll 0 -290px rgba(0,0,0,0)
+    background: url(images/jplayer.blue.monday.jpg) no-repeat scroll 0 -290px rgba(0,0,0,0)
 }
 
 a.jp-repeat:hover {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/jplayer/css/jplayer.blue.monday.jpg) no-repeat scroll -30px -290px rgba(0,0,0,0)
+    background: url(images/jplayer.blue.monday.jpg) no-repeat scroll -30px -290px rgba(0,0,0,0)
 }
 
 a.jp-repeat-off {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/jplayer/css/jplayer.blue.monday.jpg) no-repeat scroll -60px -290px rgba(0,0,0,0)
+    background: url(images/jplayer.blue.monday.jpg) no-repeat scroll -60px -290px rgba(0,0,0,0)
 }
 
 a.jp-repeat-off:hover {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/jplayer/css/jplayer.blue.monday.jpg) no-repeat scroll -90px -290px rgba(0,0,0,0)
+    background: url(images/jplayer.blue.monday.jpg) no-repeat scroll -90px -290px rgba(0,0,0,0)
 }
 
 a.jp-shuffle {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/jplayer/css/jplayer.blue.monday.jpg) no-repeat scroll 0 -270px rgba(0,0,0,0);
+    background: url(images/jplayer.blue.monday.jpg) no-repeat scroll 0 -270px rgba(0,0,0,0);
     margin-left: 5px
 }
 
 a.jp-shuffle:hover {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/jplayer/css/jplayer.blue.monday.jpg) no-repeat scroll -30px -270px rgba(0,0,0,0)
+    background: url(images/jplayer.blue.monday.jpg) no-repeat scroll -30px -270px rgba(0,0,0,0)
 }
 
 a.jp-shuffle-off {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/jplayer/css/jplayer.blue.monday.jpg) no-repeat scroll -60px -270px rgba(0,0,0,0);
+    background: url(images/jplayer.blue.monday.jpg) no-repeat scroll -60px -270px rgba(0,0,0,0);
     margin-left: 5px
 }
 
 a.jp-shuffle-off:hover {
-    background: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/jplayer/css/jplayer.blue.monday.jpg) no-repeat scroll -90px -270px rgba(0,0,0,0)
+    background: url(images/jplayer.blue.monday.jpg) no-repeat scroll -90px -270px rgba(0,0,0,0)
 }
 
 .jp-no-solution {
@@ -23456,7 +23456,7 @@ div.jp-audio div.jp-type-playlist div.jp-progress, div.jp-audio div.jp-type-play
 }
 
 a.jp-mute, a.jp-mute:hover {
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/jplayer/css/jplayer.png);
+    background-image: url(images/jplayer.png);
     background-repeat: no-repeat;
     background-position: -225px 0;
 }
@@ -23466,7 +23466,7 @@ div.jp-type-playlist div.jp-playlist a:hover,div.jp-type-playlist div.jp-playlis
 }
 
 a.jp-full-screen, a.jp-restore-screen {
-    background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/assets/jplayer/css/jplayer.png);
+    background-image: url(images/jplayer.png);
     background-repeat: no-repeat;
     background-position: -180px 0;
     background-color: rgba(0,0,0,.05);
@@ -25187,7 +25187,7 @@ html,body {
 
     .timeline_items li {
         padding: 0 0 25px 150px !important;
-        background: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/timeline_right.png) no-repeat!important;
+        background: url(images/timeline_right.png) no-repeat!important;
         background-position: 50px top!important;
         width: auto
     }
@@ -25348,7 +25348,7 @@ html,body {
 
     .ui-tabs .ui-tabs-nav li a {
         text-align: center;
-        background-image: url(//starpoltrading.com/wp-content/themes/theme-starpol/images/bg_panel.png);
+        background-image: url(images/bg_panel.png);
         background-repeat: repeat-x;
         background-position: left top
     }
