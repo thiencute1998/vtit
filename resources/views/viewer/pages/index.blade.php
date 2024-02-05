@@ -136,94 +136,20 @@
                             <div class="wrap mcb-wrap one  column-margin-0px valign-top clearfix"
                                  style="padding:30px 20px 20px 20px; background-color:#ffffff">
                                 <div class="mcb-wrap-inner">
-                                    <div class="column mcb-column one column_column  column-margin-30px">
-                                        <div class="column_attr clearfix align_center animate"
-                                             data-anim-type="fadeInDown" style=" padding:30px 20px 10px 20px;">
-                                            <div class="google_font"
-                                                 style="font-family:'Open Sans',Arial,Tahoma,sans-serif;font-size:26px;line-height:26px;font-weight:300;letter-spacing:px;color:#626262;">
-                                                With over 30 years of know-how in the segment, Starpol is your reliable
-                                                source for Polyethylene, Polypropylene, Polystyrene, PET, PVC and a
-                                                complete line of Calcium Carbonate Filler Masterbatch, White/Black/Color
-                                                and Additives Masterbatches.
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="column mcb-column one-third column_sliding_box cal-carb">
+                                    @foreach($products as $product)
+                                        <div class="column mcb-column one-third column_sliding_box ">
                                         <div class="sliding_box">
                                             <div class="animate" data-anim-type="zoomIn"><a
-                                                    href="https://starpoltrading.com/filler-masterbatch/">
+                                                    href="{{route('slug', ['slug'=> $product->slug])}}">
                                                     <div class="photo_wrapper"><img class="scale-with-grid"
-                                                                                    src="https://starpoltrading.com/wp-content/uploads/2016/05/calcium-carbonate-filler-masterbatch.jpg"
-                                                                                    alt="" width="" height=""/></div>
-                                                    <div class="desc_wrapper"><h4>Calcium Carbonate Filler
-                                                            Masterbatch</h4></div>
-                                                </a></div>
-                                        </div>
-                                    </div>
-                                    <div class="column mcb-column one-third column_sliding_box ">
-                                        <div class="sliding_box">
-                                            <div class="animate" data-anim-type="zoomIn"><a
-                                                    href="https://starpoltrading.com/white-masterbatch/">
-                                                    <div class="photo_wrapper"><img class="scale-with-grid"
-                                                                                    src="https://starpoltrading.com/wp-content/uploads/2016/05/white-masterbatch1.jpg"
+                                                                                    src="{{asset('upload/admin/Product/image/' . $product->image)}}"
                                                                                     alt="white-masterbatch" width="3700"
                                                                                     height="3700"/></div>
-                                                    <div class="desc_wrapper"><h4>White Masterbatch</h4></div>
+                                                    <div class="desc_wrapper"><h4>{{$product->name}}</h4></div>
                                                 </a></div>
                                         </div>
                                     </div>
-                                    <div class="column mcb-column one-third column_sliding_box ">
-                                        <div class="sliding_box">
-                                            <div class="animate" data-anim-type="zoomIn"><a
-                                                    href="https://starpoltrading.com/black-masterbatch/">
-                                                    <div class="photo_wrapper"><img class="scale-with-grid"
-                                                                                    src="https://starpoltrading.com/wp-content/uploads/2016/05/black-masterbatch.jpg"
-                                                                                    alt="" width="" height=""/></div>
-                                                    <div class="desc_wrapper"><h4>Black Masterbatch</h4></div>
-                                                </a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="wrap mcb-wrap one  column-margin-0px valign-top clearfix"
-                                 style="padding:30px 20px 20px 20px; background-color:#ffffff">
-                                <div class="mcb-wrap-inner">
-                                    <div class="column mcb-column one-third column_sliding_box ">
-                                        <div class="sliding_box">
-                                            <div class="animate" data-anim-type="zoomIn"><a
-                                                    href="https://starpoltrading.com/color-masterbatch/">
-                                                    <div class="photo_wrapper"><img class="scale-with-grid"
-                                                                                    src="https://starpoltrading.com/wp-content/uploads/2016/05/color-masterbatch.jpg"
-                                                                                    alt="color-masterbatch" width="1000"
-                                                                                    height="1000"/></div>
-                                                    <div class="desc_wrapper"><h4>Color Masterbatch</h4></div>
-                                                </a></div>
-                                        </div>
-                                    </div>
-                                    <div class="column mcb-column one-third column_sliding_box ">
-                                        <div class="sliding_box">
-                                            <div class="animate" data-anim-type="zoomIn"><a
-                                                    href="https://starpoltrading.com/additives/">
-                                                    <div class="photo_wrapper"><img class="scale-with-grid"
-                                                                                    src="https://starpoltrading.com/wp-content/uploads/2020/07/Additives-1.jpg"
-                                                                                    alt="Additives (1)" width="998"
-                                                                                    height="713"/></div>
-                                                    <div class="desc_wrapper"><h4>Additives</h4></div>
-                                                </a></div>
-                                        </div>
-                                    </div>
-                                    <div class="column mcb-column one-third column_sliding_box cal-carb">
-                                        <div class="sliding_box">
-                                            <div class="animate" data-anim-type="zoomIn"><a
-                                                    href="https://starpoltrading.com/calcium-carbonate-powder/">
-                                                    <div class="photo_wrapper"><img class="scale-with-grid"
-                                                                                    src="https://starpoltrading.com/wp-content/uploads/2020/12/powder.jpg"
-                                                                                    alt="powder" width="5446"
-                                                                                    height="3424"/></div>
-                                                    <div class="desc_wrapper"><h4>Powder</h4></div>
-                                                </a></div>
-                                        </div>
-                                    </div>
+                                    @endforeach
                                 </div>
                             </div>
                             <div class="wrap mcb-wrap one  valign-middle clearfix"

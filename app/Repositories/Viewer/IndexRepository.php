@@ -83,6 +83,10 @@ class IndexRepository extends BaseRepository {
         return 1;
     }
 
+    public function slug($slug) {
+        return $this->model->where('status', 1)->where('slug', $slug)->with('productDetails')->firstOrFail();
+    }
+
     public function sendMail($params) {
         require base_path("vendor/autoload.php");
         $mail = new PHPMailer();

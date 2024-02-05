@@ -55,13 +55,13 @@ class ProductRepository extends BaseRepository {
                 $params['image'] = $this->saveFile($request->file('image'), $this->pathImage);
             }
             $product->fill($params);
-            $product->save();
 
+            $product->save();
             if (isset($params['detail_name'])) {
                 $arr = [];
                 foreach ($params['detail_name'] as $key=> $item) {
                     $image = "";
-                    if ($params['detail_image'][$key]) {
+                    if (isset($params['detail_image'][$key])) {
                         $image = $this->saveFile($params['detail_image'][$key], $this->pathImage);
                     }
                     $arr[] = [

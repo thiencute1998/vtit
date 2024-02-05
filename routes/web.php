@@ -84,3 +84,4 @@ Route::post('/request-quote', [IndexController::class, 'requestQuote'])->name('r
 Route::get('/about', [IndexController::class, 'about'])->name('about');
 Route::get('/contact', [IndexController::class, 'contact'])->name('contact');
 Route::post('/send-contact', [IndexController::class, 'sendContact'])->name('send-contact');
+Route::get('/{slug}', [IndexController::class, 'slug'])->name('slug');

@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use App\Models\Config;
+use App\Models\Product;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Pagination\Paginator;
 use Illuminate\Support\Facades\View;
@@ -35,15 +36,17 @@ class AppServiceProvider extends ServiceProvider
 //        $contactFooter = About::first();
 //        //Config
         $config = Config::first();
+        $menuProducts = Product::where('status', 1)->where('type', 2)->get();
 //        $links = Link::where('status',1)->orderBy('created_at', 'asc')->get();
 //        $categories = Category::where('status', 1)->where('level', 1)->orderBy('order', 'asc')->get();
 //        // Lien he
 //        $contactWebsite = About::first();
-        View::composer('*', function ($view) use($config){
+        View::composer('*', function ($view) use($config, $menuProducts){
             $adminLogin = Auth::user();
             $data = [
                 'adminLogin'=> $adminLogin,
-                'config'=> $config
+                'config'=> $config,
+                'menuProducts'=> $menuProducts
             ];
             $view->with($data);
         });

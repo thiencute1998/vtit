@@ -42,4 +42,9 @@ class IndexController extends Controller
         $params = $request->only('name', 'email', 'subject', 'message');
         return $this->repository->sendContact($params);
     }
+
+    public function slug($slug) {
+        $product = $this->repository->slug($slug);
+        return view('viewer.pages.products', compact('product'));
+    }
 }

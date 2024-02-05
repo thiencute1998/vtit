@@ -26,14 +26,9 @@
                             <nav id="menu" class="menu-main-menu-ingles-container"><ul id="menu-main-menu-ingles" class="menu"><li id="menu-item-384" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home"><a href="{{route('index')}}"><span>Home</span></a></li>
                                     <li id="menu-item-385" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="#"><span>Products and Applications</span></a>
                                         <ul class="sub-menu">
-                                            <li id="menu-item-458" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://starpoltrading.com/thermoplastics-resins/"><span>Thermoplastics Resins</span></a></li>
-                                            <li id="menu-item-277" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://starpoltrading.com/filler-masterbatch/"><span>Calcium Carbonate Filler</span></a></li>
-
-                                            <li id="menu-item-396" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://starpoltrading.com/white-masterbatch/"><span>White Masterbatch</span></a></li>
-                                            <li id="menu-item-395" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://starpoltrading.com/black-masterbatch/"><span>Black Masterbatch</span></a></li>
-                                            <li id="menu-item-275" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://starpoltrading.com/color-masterbatch/"><span>Color Masterbatch</span></a></li>
-                                            <li id="menu-item-278" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://starpoltrading.com/additives/"><span>Additives</span></a></li>
-                                            <li id="menu-item-394" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://starpoltrading.com/calcium-carbonate-powder/"><span>Powder</span></a></li>
+                                            @foreach($menuProducts as $menuProduct)
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://starpoltrading.com/thermoplastics-resins/"><span>{{$menuProduct->name}}</span></a></li>
+                                            @endforeach
                                         </ul>
                                     </li>
                                     <li id="menu-item-400" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="{{route('quote')}}"><span>Quote/Samples</span></a></li>
