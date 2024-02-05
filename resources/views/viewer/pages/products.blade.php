@@ -113,3 +113,6 @@
         </div>
     </div>
 @endsection
+<style>
+    ul.product-list li{ width: 30%; float: left}
+</style>
