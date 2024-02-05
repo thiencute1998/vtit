@@ -27,7 +27,7 @@
                                     <li id="menu-item-385" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="#"><span>Products and Applications</span></a>
                                         <ul class="sub-menu">
                                             @foreach($menuProducts as $menuProduct)
-                                            <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://starpoltrading.com/thermoplastics-resins/"><span>{{$menuProduct->name}}</span></a></li>
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="{{route('slug',['slug'=> $product->slug])}}"><span>{{$menuProduct->name}}</span></a></li>
                                             @endforeach
                                         </ul>
                                     </li>
