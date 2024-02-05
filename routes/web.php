@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\Admin\ConfigController;
 use App\Http\Controllers\Admin\ProductController;
+use App\Http\Controllers\Admin\ApplicationController;
 use App\Http\Controllers\Admin\QuoteController;
 use App\Http\Controllers\Admin\AboutController;
 use App\Http\Controllers\Admin\ContactController;
@@ -42,6 +43,15 @@ Route::prefix('admin')->middleware(['checkLogin'])->group(function () {
         Route::get('/edit/{id}', [ProductController::class, 'edit'])->name('admin-product-edit');
         Route::post('/update/{id}', [ProductController::class, 'update'])->name('admin-product-update');
         Route::get('/delete/{id}', [ProductController::class, 'delete'])->name('admin-product-delete');
+    });
+
+    Route::prefix('application')->group(function() {
+        Route::get('/', [ApplicationController::class, 'index'])->name('admin-application');
+        Route::get('/create', [ApplicationController::class, 'create'])->name('admin-application-create');
+        Route::post('/store', [ApplicationController::class, 'store'])->name('admin-application-store');
+        Route::get('/edit/{id}', [ApplicationController::class, 'edit'])->name('admin-application-edit');
+        Route::post('/update/{id}', [ApplicationController::class, 'update'])->name('admin-application-update');
+        Route::get('/delete/{id}', [ApplicationController::class, 'delete'])->name('admin-application-delete');
     });
 
     Route::prefix('quote')->group(function () {

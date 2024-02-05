@@ -3,16 +3,15 @@
 namespace App\Repositories\Admin;
 
 use App\Models\Product;
-use App\Models\ProductDetail;
 use App\Repositories\BaseRepository;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
 
-class ProductRepository extends BaseRepository {
+class ApplicationRepository extends BaseRepository {
 
-    private $type = 2;
+    private $type = 1;
     private $pathImage = "upload/admin/Product/image";
     public function model()
     {
@@ -51,25 +50,11 @@ class ProductRepository extends BaseRepository {
             if($slugs){
                 $params['slug'] = $params['slug'].'-1';
             }
-
+            if($request->hasFile('image')) {
+                $params['image'] = $this->saveFile($request->file('image'), $this->pathImage);
+            }
             $product->fill($params);
             $product->save();
-
-            if (isset($params['detail_name'])) {
-                $arr = [];
-                foreach ($params['detail_name'] as $key=> $item) {
-                    $image = "";
-                    if ($params['detail_image'][$key]) {
-                        $image = $this->saveFile($params['detail_image'][$key], $this->pathImage);
-                    }
-                    $arr[] = [
-                        'product_id'=> $product->id,
-                        'name'=> $item,
-                        'image'=>$image
-                    ];
-                }
-                ProductDetail::insert($arr);
-            }
 
             DB::commit();
         } catch (\Exception $exception) {
@@ -79,7 +64,7 @@ class ProductRepository extends BaseRepository {
     }
 
     public function edit($id) {
-        $query = $this->model->where('id', $id)->with('productDetails');
+        $query = $this->model->where('id', $id);
         return $query->firstOrFail();
     }
 
@@ -88,29 +73,11 @@ class ProductRepository extends BaseRepository {
         DB::beginTransaction();
         try {
             $params['slug'] = Str::slug($params['name'], '-');
-
+            if($request->hasFile('image')) {
+                $params['image'] = $this->saveFile($request->file('image'), $this->pathImage);
+            }
             $product->fill($params);
             $product->save();
-
-            if (isset($params['detail_name'])) {
-                ProductDetail::where('product_id', $id)->delete();
-                $arr = [];
-                foreach ($params['detail_name'] as $key=> $item) {
-                    $image = "";
-                    if (isset($params['detail_image_hidden'][$key])) {
-                        $image = $params['detail_image_hidden'][$key];
-                    }
-                    if (isset($params['detail_image'][$key])) {
-                        $image = $this->saveFile($params['detail_image'][$key], $this->pathImage);
-                    }
-                    $arr[] = [
-                        'product_id'=> $id,
-                        'name'=> $item,
-                        'image'=>$image
-                    ];
-                }
-                ProductDetail::insert($arr);
-            }
 
             DB::commit();
         } catch (\Exception $exception) {

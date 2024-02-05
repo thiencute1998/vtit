@@ -18,7 +18,8 @@ class ProductController extends Controller
     public function index(Request $request) {
         //$searchParams = $request->only('search');
         $searchParams = $request->all();
-        return $this->repository->index($searchParams);
+        $products = $this->repository->index($searchParams);
+        return view('admin.pages.product.index', compact('products'));
     }
 
     public function create() {
@@ -26,7 +27,7 @@ class ProductController extends Controller
     }
 
     public function store(Request $request) {
-        $params = $request->only('name', 'image', 'type', 'content', 'title', 'keywords', 'description', 'order');
+        $params = $request->only('name', 'detail_name', 'detail_image', 'title', 'keywords', 'description', 'order');
         $this->repository->store($params, $request);
         return redirect()->back()->with('add-success', 'Added product successfully !!!');
     }
@@ -37,7 +38,7 @@ class ProductController extends Controller
     }
 
     public function update(Request $request, $id) {
-        $params = $request->only('slug','name', 'image', 'type', 'content', 'title', 'keywords', 'description', 'order');
+        $params = $request->only('slug', 'name', 'detail_name', 'detail_image', 'detail_image_hidden', 'title', 'keywords', 'description', 'order');
         $this->repository->update($params, $request, $id);
         return redirect()->back()->with('edit-success', 'Updated product successfully !!!');
     }

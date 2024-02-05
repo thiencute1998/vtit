@@ -16,7 +16,10 @@
                         <a href="{{route('configs')}}" aria-expanded="true"><i class="ti-dashboard"></i><span>Config</span></a>
                     </li>
                     <li class="{{str_contains(Request::path(), 'admin/product') ? 'active' : ''}}">
-                        <a href="{{route('admin-product')}}" aria-expanded="true"><i class="ti-dashboard"></i><span>Products and Applications</span></a>
+                        <a href="{{route('admin-product')}}" aria-expanded="true"><i class="ti-dashboard"></i><span>Products</span></a>
+                    </li>
+                    <li class="{{str_contains(Request::path(), 'admin/application') ? 'active' : ''}}">
+                        <a href="{{route('admin-application')}}" aria-expanded="true"><i class="ti-dashboard"></i><span>Applications</span></a>
                     </li>
                     <li class="{{str_contains(Request::path(), 'admin/quote') ? 'active' : ''}}">
                         <a href="{{route('admin-quote')}}" aria-expanded="true"><i class="ti-dashboard"></i><span>Request a Quote/Sample</span></a>

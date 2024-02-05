@@ -4,7 +4,7 @@
           'https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/ui-lightness/jquery-ui.css'
           rel='stylesheet'>
     <style type="text/css">
-        .product-remove{
+        .application-remove{
             cursor: pointer;
             color: darkred;
         }
@@ -21,7 +21,7 @@
         <div class="row align-items-center" style="padding: 1.6rem 0;">
             <div class="col-md-12 col-sm-10">
                 <div class="search-box pull-left w-100">
-                    <form action="{{ route('admin-product') }}" method="GET" >
+                    <form action="{{ route('admin-application') }}" method="GET" >
                         <div class="row form-group justify-content-between">
                             <div class="col-md-4">
                                 <span>Name </span>
@@ -64,11 +64,11 @@
                                 @if (session('delete-success'))
                                     <h5 class="work-message mb-2 text-success">{{ session('delete-success') }}</h5>
                                 @endif
-                                <h4 class="header-title">List of products</h4>
+                                <h4 class="header-title">List of applications</h4>
                             </div>
                             <div>
-                                <a class="btn btn-primary" href="{{route('admin-product-create')}}">
-                                    <i class="ti-plus"></i><span>Add products</span>
+                                <a class="btn btn-primary" href="{{route('admin-application-create')}}">
+                                    <i class="ti-plus"></i><span>Add applications</span>
                                 </a>
                             </div>
                         </div>
@@ -84,27 +84,27 @@
                                     </tr>
                                     </thead>
                                     <tbody>
-                                    @foreach($products as $product)
+                                    @foreach($applications as $application)
                                         <tr>
                                             <td class="text-left">
-                                                {{$product->name}}
+                                                {{$application->name}}
                                             </td>
                                             <td>
-                                                {{$product->created_at}}
+                                                {{$application->created_at}}
                                             </td>
                                             <td style="vertical-align: middle;">
-                                                @if($product->status==1)
+                                                @if($application->status==1)
                                                     <span class="text-success">Active</span>
                                                 @else
                                                     <span class="text-danger">Inactive</span>
                                                 @endif
                                             </td>
                                             <td style="vertical-align: middle;">
-                                                <a href="{{ route('admin-product-edit', ['id'=> $product->id]) }}">
+                                                <a href="{{ route('admin-application-edit', ['id'=> $application->id]) }}">
                                                     <i class="fa fa-edit"></i>
                                                 </a>
-                                                <a class="product-remove" href="{{ route('admin-product-delete', ['id'=> $product->id]) }}"
-                                                   onclick="return confirm('Do you want to delete this product?' )"
+                                                <a class="application-remove" href="{{ route('admin-application-delete', ['id'=> $application->id]) }}"
+                                                   onclick="return confirm('Do you want to delete this application?' )"
                                                 >
                                                     <i class="ti-trash"></i>
                                                 </a>
@@ -117,7 +117,7 @@
                             </div>
                         </div>
                         <div class="row" style="justify-content: flex-end;">
-                            {{ $products->onEachSide(1)->links() }}
+                            {{ $applications->onEachSide(1)->links() }}
                         </div>
                     </div>
                 </div>
