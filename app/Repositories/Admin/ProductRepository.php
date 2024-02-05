@@ -51,7 +51,9 @@ class ProductRepository extends BaseRepository {
             if($slugs){
                 $params['slug'] = $params['slug'].'-1';
             }
-
+            if($request->hasFile('image')) {
+                $params['image'] = $this->saveFile($request->file('image'), $this->pathImage);
+            }
             $product->fill($params);
             $product->save();
 
@@ -88,7 +90,9 @@ class ProductRepository extends BaseRepository {
         DB::beginTransaction();
         try {
             $params['slug'] = Str::slug($params['name'], '-');
-
+            if($request->hasFile('image')) {
+                $params['image'] = $this->saveFile($request->file('image'), $this->pathImage);
+            }
             $product->fill($params);
             $product->save();
 

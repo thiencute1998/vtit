@@ -47,9 +47,13 @@
                                         </div>
                                     </div>
                                     <div class="row form-group">
-                                        <div class="col-md-12">
+                                        <div class="col-md-8">
                                             <label for="services" class="col-form-label">Name(*)</label>
                                             <input type="text" class="form-control" name="name" placeholder="Name" required>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <label for="services" class="col-form-label">Image</label>
+                                            <input type="file" name="image" class="form-control">
                                         </div>
                                     </div>
 

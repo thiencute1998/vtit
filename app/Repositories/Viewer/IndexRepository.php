@@ -19,8 +19,8 @@ class IndexRepository extends BaseRepository {
     }
 
     public function index() {
-
-        return view('viewer.pages.index');
+        $products = $this->model->where('type', 2)->where('status', 1)->get();
+        return view('viewer.pages.index', compact('products'));
     }
 
     public function quote() {
