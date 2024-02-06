@@ -78,6 +78,7 @@
                                     <thead class="text-uppercase">
                                     <tr>
                                         <th scope="col" style="width: 40%">Image</th>
+                                        <th scope="col">Link</th>
                                         <th scope="col">Created at</th>
                                         <th>Status</th>
                                         <th scope="col">Actions</th>
@@ -91,6 +92,9 @@
                                                     <img class="work-img" width="122" height="75"
                                                          src="{{asset('upload/admin/Certificate/image/' . $certificate->image)}}" alt="">
                                                 @endif
+                                            </td>
+                                            <td style="vertical-align: middle;">
+                                                <a href="{{$certificate->link}}">{{$certificate->link}}</a>
                                             </td>
                                             <td style="vertical-align: middle;">
                                                 {{$certificate->created_at}}

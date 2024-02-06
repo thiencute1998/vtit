@@ -47,9 +47,13 @@
                                         </div>
                                     </div>
                                     <div class="row form-group">
-                                        <div class="col-md-6">
+                                        <div class="col-md-4">
                                             <label for="services" class="col-form-label">Image</label>
                                             <input type="file" name="image" class="form-control">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="services" class="col-form-label">Link</label>
+                                            <input type="text" class="form-control" name="link" placeholder="Link">
                                         </div>
                                     </div>
                                     <button type="submit" class="btn btn-primary mt-4 pr-4 pl-4">Add</button>

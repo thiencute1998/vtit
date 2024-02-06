@@ -23,9 +23,20 @@ class CertificateController extends Controller
     }
 
     public function store(Request $request) {
-        $params = $request->all();
+        $params = $request->only('link');
         $this->repository->store($params, $request);
         return redirect()->back()->with('add-success', 'Added certificate success !!!');
+    }
+
+    public function edit($id) {
+        $certificate = $this->repository->edit($id);
+        return view('admin.pages.certificate.edit', compact('certificate'));
+    }
+
+    public function update(Request $request, $id) {
+        $params = $request->only('link');
+        $this->repository->update($params, $request, $id);
+        return redirect()->back()->with('edit-success', 'Updated certificate successfully !!!');
     }
 
     public function delete($id) {

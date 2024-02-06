@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Certificate extends Model
 {
-    protected $fillable = ["image", "status"];
+    protected $fillable = ["image", "status","link"];
     use HasFactory;
 
     public $timestamps = true;
