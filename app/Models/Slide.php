@@ -7,7 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Slide extends Model
 {
-    protected $fillable = ["image", "status"];
+    protected $fillable = ["image", "status", "name","content"];
+
     use HasFactory;
 
     public $timestamps = true;

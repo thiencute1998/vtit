@@ -6,6 +6,7 @@ use App\Models\Slide;
 use App\Repositories\BaseRepository;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Str;
 
 class SlideRepository extends BaseRepository {
     private $pathImage = "upload/admin/Slide/image";
@@ -30,6 +31,28 @@ class SlideRepository extends BaseRepository {
         }
         $slide->fill($params);
         $slide->save();
+    }
+
+    public function edit($id) {
+        $query = $this->model->where('id', $id);
+        return $query->firstOrFail();
+    }
+
+    public function update($params, $request, $id) {
+        $slide = $this->model->findOrFail($id);
+        DB::beginTransaction();
+        try {
+            if($request->hasFile('image')) {
+                $params['image'] = $this->saveFile($request->file('image'), $this->pathImage);
+            }
+            $slide->fill($params);
+            $slide->save();
+
+            DB::commit();
+        } catch (\Exception $exception) {
+            DB::rollBack();
+            throw $exception;
+        }
     }
 
     public function delete($id) {

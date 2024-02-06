@@ -8,6 +8,7 @@ use App\Models\Config;
 use App\Models\Contact;
 use App\Models\Product;
 use App\Models\Quote;
+use App\Models\Slide;
 use App\Repositories\BaseRepository;
 use Illuminate\Support\Facades\DB;
 use PHPMailer\PHPMailer\PHPMailer;
@@ -21,8 +22,9 @@ class IndexRepository extends BaseRepository {
 
     public function index() {
         $products = $this->model->where('type', 2)->where('status', 1)->get();
+        $slides = Slide::where('status', 1)->orderBy('created_at', 'desc')->get();
         $certificates = Certificate::where('status', 1)->get();
-        return view('viewer.pages.index', compact('products', 'certificates'));
+        return view('viewer.pages.index', compact('products', 'certificates', 'slides'));
     }
 
     public function quote() {

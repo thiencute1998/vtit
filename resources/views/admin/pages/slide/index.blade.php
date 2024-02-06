@@ -77,7 +77,8 @@
                                 <table class="table text-center">
                                     <thead class="text-uppercase">
                                     <tr>
-                                        <th scope="col" style="width: 40%">Image</th>
+                                        <th scope="col" style="width: 30%">Name</th>
+                                        <th scope="col">Image</th>
                                         <th scope="col">Created at</th>
                                         <th>Status</th>
                                         <th scope="col">Actions</th>
@@ -86,6 +87,9 @@
                                     <tbody>
                                     @foreach($slides as $slide)
                                         <tr>
+                                            <td style="vertical-align: middle;">
+                                                {{$slide->name}}
+                                            </td>
                                             <td >
                                                 @if($slide->image)
                                                     <img class="work-img" width="325" height="158"
@@ -103,6 +107,9 @@
                                                 @endif
                                             </td>
                                             <td style="vertical-align: middle;">
+                                                <a href="{{ route('admin-slide-edit', ['id'=> $slide->id]) }}">
+                                                    <i class="fa fa-edit"></i>
+                                                </a>
                                                 <a class="slide-remove" href="{{ route('admin-slide-delete', ['id'=> $slide->id]) }}"
                                                    onclick="return confirm('Do you want to delete this slide?' )"
                                                 >

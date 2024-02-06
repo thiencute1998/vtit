@@ -77,6 +77,8 @@ Route::prefix('admin')->middleware(['checkLogin'])->group(function () {
         Route::get('/', [SlideController::class, 'index'])->name('admin-slide');
         Route::get('/create', [SlideController::class, 'create'])->name('admin-slide-create');
         Route::post('/store', [SlideController::class, 'store'])->name('admin-slide-store');
+        Route::get('/edit/{id}', [SlideController::class, 'edit'])->name('admin-slide-edit');
+        Route::post('/update/{id}', [SlideController::class, 'update'])->name('admin-slide-update');
         Route::get('/delete/{id}', [SlideController::class, 'delete'])->name('admin-slide-delete');
     });
 

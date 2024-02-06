@@ -30,88 +30,24 @@
 
                                                 <div class="carousel-inner">
                                                     <!-- YouTube Video -->
-                                                    <div class="carousel-item active">
+                                                    @foreach($slides as $key=> $slide)
+                                                    <div class="carousel-item @if($key == 0) active @endif">
                                                         <div class="carousel-container">
                                                             <div class="carousel-row">
                                                                 <div class="carousel-col">
-                                                                    <h3>OUR PRODUCTS</h3>
+                                                                    <h3>{{$slide->name}}</h3>
                                                                     <div class="carousel-content">
-                                                                        <div class="carousel-left">
-                                                                            <p>Polyethylene<br>
-                                                                                Polypropylene<br>
-                                                                                Polystyrene<br>
-                                                                                PET<br>
-                                                                                PVC<br>
-                                                                                Others<br>
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="carousel-right">
-                                                                            <p>Calcium Carbonate Filler Masterbatch<br>
-                                                                                White Masterbatch<br>
-                                                                                Black Masterbatch<br>
-                                                                                Color Masterbatches</p>
-                                                                        </div>
+                                                                        {!! $slide->content !!}
                                                                     </div>
                                                                 </div>
                                                                 <div class="carousel-col">
                                                                     <img class="carousel-img" alt="Second slide"
-                                                                         src="https://starpoltrading.com/wp-content/uploads/2023/07/White-Plastic-Granules-min.jpg">
+                                                                         src="{{asset('upload/admin/Slide/image/' . $slide->image)}}">
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <!-- Local Video -->
-                                                    <div class="carousel-item">
-                                                        <div class="carousel-container">
-                                                            <div class="carousel-row">
-                                                                <div class="carousel-col">
-                                                                    <h3>OUR PRODUCTS</h3>
-                                                                    <div class="carousel-content">
-                                                                        <div class="carousel-left">
-                                                                            <p>Polyethylene<br>
-                                                                                Polypropylene<br>
-                                                                                Polystyrene<br>
-                                                                                PET<br>
-                                                                                PVC
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="carousel-right">
-                                                                            <p>Calcium Carbonate Filler Masterbatch<br>
-                                                                                White Masterbatch<br>
-                                                                                Black Masterbatch<br>
-                                                                                Color Masterbatches</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="carousel-col">
-                                                                    <img class="carousel-img" alt="Second slide"
-                                                                         src="https://starpoltrading.com/wp-content/uploads/2021/10/shutterstock_1457257346-scaled.jpg">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- Image -->
-                                                    <div class="carousel-item">
-                                                        <div class="carousel-container">
-                                                            <div class="carousel-row">
-                                                                <div class="carousel-col">
-                                                                    <h3>OUR PRODUCTS</h3>
-                                                                    <div class="carousel-content">
-                                                                        <div class="carousel-full">
-                                                                            <p>PURE WHITE CALCIUM CARBONATE</p>
-                                                                            <p><small>RECOGNIZED FOR TOP QUALITY AT THE
-                                                                                    MOST COMPETITIVE PRICES IN THE
-                                                                                    MARKET</small></p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="carousel-col">
-                                                                    <img class="carousel-img" alt="Second slide"
-                                                                         src="https://starpoltrading.com/wp-content/uploads/2020/12/shutterstock_90536542.jpg">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                                    @endforeach
                                                 </div>
                                                 <a id="carouselPrev" class="carousel-control-prev"
                                                    href="#carouselExampleControls" role="button">

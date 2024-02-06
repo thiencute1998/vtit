@@ -80,7 +80,7 @@
                                     @foreach($product->productDetails as $detail)
                                             <li>
                                                 <div>
-                                                    <a href="{{route('slug', ['slug'=> $product->slug])}}"
+                                                    <a @if($detail->link) href="{{$detail->link}}" @endif
                                                        class="tacpham-main-img"><img
                                                             src="{{asset('upload/admin/Product/image/' . $detail->image)}}"
                                                             title="{{$detail->name}}">

@@ -23,9 +23,20 @@ class SlideController extends Controller
     }
 
     public function store(Request $request) {
-        $params = $request->all();
+        $params = $request->only('name', 'content');
         $this->repository->store($params, $request);
         return redirect()->back()->with('add-success', 'Added slide success !!!');
+    }
+
+    public function edit($id) {
+        $slide = $this->repository->edit($id);
+        return view('admin.pages.slide.edit', compact('slide'));
+    }
+
+    public function update(Request $request, $id) {
+        $params = $request->only('name', 'content');
+        $this->repository->update($params, $request, $id);
+        return redirect()->back()->with('edit-success', 'Updated slide successfully !!!');
     }
 
     public function delete($id) {

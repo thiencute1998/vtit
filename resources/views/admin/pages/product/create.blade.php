@@ -10,6 +10,11 @@
         h1{
             color:green;
         }
+        .remove-product-detail{
+            cursor: pointer;
+            color: darkred;
+        }
+
     </style>
 @endsection
 @section('main-content-inner')
@@ -66,13 +71,17 @@
                                     <div class="row form-group product-detail">
                                         <div class="col-md-4">
                                             <label for="services" class="col-form-label">Name(*)</label>
-                                            <input type="text" class="form-control" name="detail_name[]" placeholder="Name" >
+                                            <input type="text" class="form-control" name="detail_name[]" placeholder="Name" required>
                                         </div>
                                         <div class="col-md-2">
                                             <label for="services" class="col-form-label">Image</label>
                                             <input type="file" name="detail_image[]" class="form-control">
                                         </div>
-                                        <div class="remove-product-detail">
+                                        <div class="col-md-4">
+                                            <label for="services" class="col-form-label">Link</label>
+                                            <input type="text" class="form-control" name="detail_link[]" placeholder="Link">
+                                        </div>
+                                        <div class="remove-product-detail" title="Remove">
                                             <span><i class="ti-trash"></i></span>
                                         </div>
                                     </div>
@@ -131,7 +140,11 @@
                    '<label for="services" class="col-form-label">Image</label>' +
                     '<input type="file" name="detail_image[]" class="form-control">' +
                 '</div>' +
-                '<div class="remove-product-detail">' +
+                '<div class="col-md-4">' +
+                    '<label for="services" class="col-form-label">Link</label>' +
+                    '<input type="text" class="form-control" name="detail_link[]" placeholder="Link">' +
+                '</div>' +
+                '<div class="remove-product-detail" title="Remove">' +
                     '<span><i class="ti-trash"></i></span>' +
                 '</div>' +
             '</div>'

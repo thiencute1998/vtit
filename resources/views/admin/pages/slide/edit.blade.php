@@ -22,10 +22,10 @@
                     <div class="col-12 mt-3">
                         <div class="card">
                             <div class="card-body">
-                                <form id="slide-form" name="slide-form" action="{{ route('admin-slide-store') }}" enctype="multipart/form-data" method="POST">
+                                <form id="slide-form" name="slide-form" action="{{ route('admin-slide-update', ['id'=> $slide->id]) }}" enctype="multipart/form-data" method="POST">
                                     @csrf
-                                    @if (session('add-success'))
-                                        <h5 class="action-message mb-2 text-success">{{ session('add-success') }}</h5>
+                                    @if (session('edit-success'))
+                                        <h5 class="action-message mb-2 text-success">{{ session('edit-success') }}</h5>
                                     @endif
                                     @if ($errors->any())
                                         <div class="alert alert-danger">
@@ -38,7 +38,7 @@
                                     @endif
                                     <div class="row form-group justify-content-between">
                                         <div>
-                                            <h4 class="header-title slide-add-title">Add slides</h4>
+                                            <h4 class="header-title slide-edit-title">Edit slides</h4>
                                         </div>
                                         <div>
                                             <a class="btn btn-primary" href="{{route('admin-slide')}}">
@@ -49,7 +49,7 @@
                                     <div class="row form-group">
                                         <div class="col-md-8">
                                             <label for="services" class="col-form-label">Name</label>
-                                            <input type="text" class="form-control" name="name" placeholder="Name">
+                                            <input type="text" class="form-control" name="name" placeholder="Name" value="{{$slide->name}}">
                                         </div>
                                         <div class="col-md-4">
                                             <label for="services" class="col-form-label">Image</label>
@@ -60,10 +60,11 @@
                                         <div class="col-md-12">
                                             <label for="application-content" class="col-form-label">Content</label>
                                             <textarea class="form-control" name="content" type="text" id="content">
-                                        </textarea>
+                                                {{$slide->content}}
+                                            </textarea>
                                         </div>
                                     </div>
-                                    <button type="submit" class="btn btn-primary mt-4 pr-4 pl-4">Add</button>
+                                    <button type="submit" class="btn btn-primary mt-4 pr-4 pl-4">Update</button>
                                 </form>
                             </div>
                         </div>

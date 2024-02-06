@@ -64,10 +64,12 @@ class ProductRepository extends BaseRepository {
                     if (isset($params['detail_image'][$key])) {
                         $image = $this->saveFile($params['detail_image'][$key], $this->pathImage);
                     }
+
                     $arr[] = [
                         'product_id'=> $product->id,
                         'name'=> $item,
-                        'image'=>$image
+                        'image'=>$image,
+                        'link'=> isset($params['detail_link'][$key]) ?$params['detail_link'][$key] : null
                     ];
                 }
                 ProductDetail::insert($arr);
@@ -110,7 +112,8 @@ class ProductRepository extends BaseRepository {
                     $arr[] = [
                         'product_id'=> $id,
                         'name'=> $item,
-                        'image'=>$image
+                        'image'=>$image,
+                        'link'=> isset($params['detail_link'][$key]) ?$params['detail_link'][$key] : null
                     ];
                 }
                 ProductDetail::insert($arr);
