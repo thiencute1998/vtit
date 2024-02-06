@@ -6,9 +6,9 @@
     <!-- meta -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="shortcut icon" href="https://localhost/starpol/wp-content/uploads/2016/10/favicon-32x32.png" />
+    <link rel="shortcut icon" href="{{asset('assets/viewer/style/images/favicon.ico')}}" />
     <!-- wp_head() -->
-    <title>Starpol Trading</title>
+    <title>Romaplas</title>
 
     <!-- script | dynamic -->
     <script id="mfn-dnmc-config-js">
