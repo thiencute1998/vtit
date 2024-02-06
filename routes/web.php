@@ -9,6 +9,7 @@ use App\Http\Controllers\Admin\QuoteController;
 use App\Http\Controllers\Admin\AboutController;
 use App\Http\Controllers\Admin\ContactController;
 use App\Http\Controllers\Admin\SlideController;
+use App\Http\Controllers\Admin\UserController;
 use App\Http\Controllers\Admin\CertificateController;
 use App\Http\Controllers\Viewer\IndexController;
 /*
@@ -89,6 +90,15 @@ Route::prefix('admin')->middleware(['checkLogin'])->group(function () {
         Route::get('/edit/{id}', [CertificateController::class, 'edit'])->name('admin-certificate-edit');
         Route::post('/update/{id}', [CertificateController::class, 'update'])->name('admin-certificate-update');
         Route::get('/delete/{id}', [CertificateController::class, 'delete'])->name('admin-certificate-delete');
+    });
+
+    Route::prefix('user')->group(function() {
+        Route::get('/', [UserController::class, 'index'])->name('users');
+        Route::get('/create', [UserController::class, 'create'])->name('users-create');
+        Route::post('/store', [UserController::class, 'store'])->name('users-store');
+        Route::get('/edit/{id}', [UserController::class, 'edit'])->name('users-edit');
+        Route::post('/update/{id}', [UserController::class, 'update'])->name('users-update');
+        Route::get('/delete/{id}', [UserController::class, 'delete'])->name('users-delete');
     });
 
 });

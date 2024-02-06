@@ -36,6 +36,9 @@
                     <li class="{{str_contains(Request::path(), 'admin/certificate') ? 'active' : ''}}">
                         <a href="{{route('admin-certificate')}}" aria-expanded="true"><i class="ti-dashboard"></i><span>Product Certificate</span></a>
                     </li>
+                    <li class="{{str_contains(Request::path(), 'admin/user') ? 'active' : ''}}">
+                        <a href="{{route('users')}}" aria-expanded="true"><i class="ti-dashboard"></i><span>Users</span></a>
+                    </li>
                 </ul>
             </nav>
         </div>

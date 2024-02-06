@@ -32,15 +32,15 @@
                                     <input type="hidden" id="user-id">
                                     <div class="form-group">
                                         <label for="user-name" class="col-form-label">Name</label>
-                                        <input class="form-control" name="name" type="text" value="{{ old('name') }}" id="user-name" required>
+                                        <input class="form-control" placeholder="Name" name="name" type="text" value="{{ old('name') }}" id="user-name" required>
                                     </div>
                                     <div class="form-group">
                                         <label for="user-description" class="col-form-label">Email</label>
-                                        <input class="form-control" name="email" type="text" value="{{ old('email') }}" id="user-description" required >
+                                        <input class="form-control" placeholder="Email" name="email" type="email" value="{{ old('email') }}" id="user-description" required >
                                     </div>
                                     <div class="form-group">
                                         <label for="user-description" class="col-form-label">Password</label>
-                                        <input class="form-control" name="password" type="password" value="{{ old('password') }}" id="user-description" required >
+                                        <input class="form-control" placeholder="Password" name="password" type="password" value="{{ old('password') }}" id="user-description" required >
                                     </div>
                                     <button type="submit" class="btn btn-primary mt-4 pr-4 pl-4">Submit</button>
                                 </form>
