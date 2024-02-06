@@ -20,7 +20,7 @@
 {{--                        </div>--}}
 {{--                    </div>--}}
                     <div class="section mcb-section   " style="padding-top:0px; padding-bottom:0px; background-color:">
-                        <div class="section_wrapper mcb-section-inner">
+                        <div class="section_wrapper mcb-section-inner" style="background: none !important;">
                             <div class="wrap mcb-wrap one  valign-top clearfix" style="">
                                 <div class="mcb-wrap-inner">
                                     <div class="column mcb-column one column_column  column-margin-30px">
