@@ -101,12 +101,6 @@
                             </div>
                         </div>
                     </div>
-                    <div class="section section-page-footer">
-                        <div class="section_wrapper clearfix">
-                            <div class="column one page-pager">
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
             <!-- .four-columns - sidebar -->

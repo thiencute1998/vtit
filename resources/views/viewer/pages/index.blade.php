@@ -5,20 +5,20 @@
             <!-- .sections_group -->
             <div class="sections_group">
                 <div class="entry-content" itemprop="mainContentOfPage">
-                    <div class="section mcb-section   " style="padding-top:0px; padding-bottom:0px; background-color:">
-                        <div class="section_wrapper mcb-section-inner">
-                            <div class="wrap mcb-wrap one  valign-top clearfix" style="">
-                                <div class="mcb-wrap-inner">
-                                    <div class="column mcb-column one column_column  column-margin-30px">
-                                        <div class="column_attr clearfix align_center animate"
-                                             data-anim-type="fadeInDown" style=" padding:0px 20px 10px 20px;"><a
-                                                href="#nextSec" class="scroll"><i class="icon-down-open-big"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+{{--                    <div class="section mcb-section   " style="padding-top:0px; padding-bottom:0px; background-color:">--}}
+{{--                        <div class="section_wrapper mcb-section-inner">--}}
+{{--                            <div class="wrap mcb-wrap one  valign-top clearfix" style="">--}}
+{{--                                <div class="mcb-wrap-inner">--}}
+{{--                                    <div class="column mcb-column one column_column  column-margin-30px">--}}
+{{--                                        <div class="column_attr clearfix align_center animate"--}}
+{{--                                             data-anim-type="fadeInDown" style=" padding:0px 20px 10px 20px;"><a--}}
+{{--                                                href="#nextSec" class="scroll"><i class="icon-down-open-big"></i></a>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
                     <div class="section mcb-section   " style="padding-top:0px; padding-bottom:0px; background-color:">
                         <div class="section_wrapper mcb-section-inner">
                             <div class="wrap mcb-wrap one  valign-top clearfix" style="">
@@ -249,17 +249,6 @@
                                         </ul>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="section the_content no_content">
-                        <div class="section_wrapper">
-                            <div class="the_content_wrapper"></div>
-                        </div>
-                    </div>
-                    <div class="section section-page-footer">
-                        <div class="section_wrapper clearfix">
-                            <div class="column one page-pager">
                             </div>
                         </div>
                     </div>
