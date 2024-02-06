@@ -4,8 +4,9 @@
         <div id="Action_bar">
             <div class="container">
                 <div class="column one">
-                    <ul class="social"><li class="linkedin"><a  href="https://www.linkedin.com/company/starpol-trading-llc/" title="LinkedIn"><img src="https://starpoltrading.com/wp-content/uploads/2021/01/linked-in.png" style="width: 90px; margin-top: -13px;"></a></li></ul><ul class="contact_details">
-                        <li class="phone"><i class="fa fa-phone"></i><a href="tel:(888)970-1403">(888) 970-1403</a></li><li class="mail"><i class="fa fa-envelope-o"></i><a href="mailto:info@starpoltrading.com">info@starpoltrading.com</a></li>				</ul>
+                    <ul class="social">
+                        <li class="linkedin"><a  href="{{$config->linked_in}}" title="LinkedIn"><img src="{{asset('assets/viewer/style/images/linked-in.png')}}" style="width: 90px; margin-top: -13px;"></a></li></ul><ul class="contact_details">
+                        <li class="phone"><i class="fa fa-phone"></i><a href="tel:{{$config->phone}}">{{$config->phone}}</a></li><li class="mail"><i class="fa fa-envelope-o"></i><a href="{{$config->email}}">{{$config->email}}</a></li>				</ul>
                 </div>
             </div>
         </div>
@@ -20,7 +21,7 @@
                     <div class="top_bar_left header-height clearfix">
                         <!-- .logo -->
                         <div class="logo">
-                            <a id="logo" href="https://starpoltrading.com" title="Starpol Trading"><img class="logo-main scale-with-grid" src="https://starpoltrading.com/wp-content/uploads/2020/12/Logo-01.png" alt="Logo-01" /><img class="logo-sticky scale-with-grid" src="https://starpoltrading.com/wp-content/uploads/2020/12/Logo-01.png" alt="Logo-01" /><img class="logo-mobile scale-with-grid" src="https://starpoltrading.com/wp-content/uploads/2020/12/Logo-01.png" alt="Logo-01" /></a>				</div>
+                            <a id="logo" href="#" title="Starpol Trading"><img class="logo-main scale-with-grid" src="https://starpoltrading.com/wp-content/uploads/2020/12/Logo-01.png" alt="Logo-01" /><img class="logo-sticky scale-with-grid" src="https://starpoltrading.com/wp-content/uploads/2020/12/Logo-01.png" alt="Logo-01" /><img class="logo-mobile scale-with-grid" src="https://starpoltrading.com/wp-content/uploads/2020/12/Logo-01.png" alt="Logo-01" /></a>				</div>
                         <div class="menu_wrapper">
 
                             <nav id="menu" class="menu-main-menu-ingles-container"><ul id="menu-main-menu-ingles" class="menu"><li id="menu-item-384" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home"><a href="{{route('index')}}"><span>Home</span></a></li>
@@ -56,9 +57,11 @@
                 </div>
             </div>
         </div>
+        @if (Route::currentRouteName() == 'index')
         <video autoplay muted loop id="myVideo" style="width:100%;">
             <source src="https://starpoltrading.com/wp-content/uploads/2023/07/Andres-Video-3.mp4" type="video/mp4">
             Your browser does not support HTML5 video.
         </video>
+        @endif
     </header>
 </div>
