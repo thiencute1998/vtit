@@ -170,13 +170,15 @@
                                             <ul class="clients clients_slider_ul">
                                                 @foreach($certificates as $certificate)
                                                     <li>
-                                                    <div class="client_wrapper"><img width="122" height="75"
-                                                                                     src="{{asset('upload/Certificate/image/' . $certificate->image)}}"
-                                                                                     class="scale-with-grid wp-post-image"
-                                                                                     alt="" decoding="async"
-                                                                                     loading="lazy"
-                                                                                     srcset="https://starpoltrading.com/wp-content/uploads/2020/12/1541494046_Certificate-Logo-02-122x75.png 122w, https://starpoltrading.com/wp-content/uploads/2020/12/1541494046_Certificate-Logo-02-300x185.png 300w, https://starpoltrading.com/wp-content/uploads/2020/12/1541494046_Certificate-Logo-02-237x146.png 237w, https://starpoltrading.com/wp-content/uploads/2020/12/1541494046_Certificate-Logo-02-50x31.png 50w, https://starpoltrading.com/wp-content/uploads/2020/12/1541494046_Certificate-Logo-02.png 854w"
-                                                                                     sizes="(max-width: 122px) 100vw, 122px"/>
+                                                    <div class="client_wrapper">
+                                                        <a href="{{$certificate->link}}">
+                                                            <img width="122" height="75"
+                                                                 src="{{asset('upload/admin/Certificate/image/' . $certificate->image)}}"
+                                                                 class="scale-with-grid wp-post-image"
+                                                                 alt="" decoding="async"
+                                                                 loading="lazy"
+                                                                 sizes="(max-width: 122px) 100vw, 122px"/>
+                                                        </a>
                                                     </div>
                                                 </li>
                                                 @endforeach
