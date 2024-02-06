@@ -115,6 +115,6 @@
 @endsection
 <style>
     ul.product-list {list-style: none;}
-    ul.product-list li{ width: 30%; float: left; margin-right: 10px; text-align: center;}
+    ul.product-list li{ width: 30%; float: left; margin-right: 10px; text-align: center; list-style: none; height: 222px; overflow: hidden;}
 
 </style>
