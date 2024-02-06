@@ -86,6 +86,8 @@ Route::prefix('admin')->middleware(['checkLogin'])->group(function () {
         Route::get('/', [CertificateController::class, 'index'])->name('admin-certificate');
         Route::get('/create', [CertificateController::class, 'create'])->name('admin-certificate-create');
         Route::post('/store', [CertificateController::class, 'store'])->name('admin-certificate-store');
+        Route::get('/edit/{id}', [CertificateController::class, 'edit'])->name('admin-certificate-edit');
+        Route::post('/update/{id}', [CertificateController::class, 'update'])->name('admin-certificate-update');
         Route::get('/delete/{id}', [CertificateController::class, 'delete'])->name('admin-certificate-delete');
     });
 

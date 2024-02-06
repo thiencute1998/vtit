@@ -32,6 +32,28 @@ class CertificateRepository extends BaseRepository {
         $certificate->save();
     }
 
+    public function edit($id) {
+        $query = $this->model->where('id', $id);
+        return $query->firstOrFail();
+    }
+
+    public function update($params, $request, $id) {
+        $slide = $this->model->findOrFail($id);
+        DB::beginTransaction();
+        try {
+            if($request->hasFile('image')) {
+                $params['image'] = $this->saveFile($request->file('image'), $this->pathImage);
+            }
+            $slide->fill($params);
+            $slide->save();
+
+            DB::commit();
+        } catch (\Exception $exception) {
+            DB::rollBack();
+            throw $exception;
+        }
+    }
+
     public function delete($id) {
         DB::beginTransaction();
         try {
