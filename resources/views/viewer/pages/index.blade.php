@@ -110,7 +110,7 @@
                                             <br><br>
                                             <div class="column mcb-column one-third">
                                                 <span class="home-app"><a
-                                                        href="https://starpoltrading.com/filler-masterbatch/">Calcium Carbonate Filler Masterbatch</a></span>
+                                                        href="#">Calcium Carbonate Filler Masterbatch</a></span>
                                                 <ul class="ul-app">
                                                     <li>Injection molding - chairs, pails, caps, household products</li>
                                                     <li>Blow molding - bottles</li>
@@ -124,7 +124,7 @@
                                             </div>
                                             <div class="column mcb-column one-third">
                                                 <span class="home-app"><a
-                                                        href="https://starpoltrading.com/white-masterbatch/">White Masterbatch</a></span>
+                                                        href="#">White Masterbatch</a></span>
                                                 <ul class="ul-app">
                                                     <li>Injection molding - chairs, pails, caps, household products</li>
                                                     <li>Blow molding - bottles</li>
@@ -138,7 +138,7 @@
                                             </div>
                                             <div class="column mcb-column one-third">
                                                 <span class="home-app"><a
-                                                        href="https://starpoltrading.com/black-masterbatch/">Black Masterbatch</a></span>
+                                                        href="#">Black Masterbatch</a></span>
                                                 <ul class="ul-app">
                                                     <li>Automotive industry / General injected products</li>
                                                     <li>Grain/Silage Bags</li>
