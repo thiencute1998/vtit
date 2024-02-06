@@ -30,6 +30,12 @@
                     <li class="{{str_contains(Request::path(), 'admin/contact') ? 'active' : ''}}">
                         <a href="{{route('admin-contact')}}" aria-expanded="true"><i class="ti-dashboard"></i><span>Contact</span></a>
                     </li>
+                    <li class="{{str_contains(Request::path(), 'admin/slide') ? 'active' : ''}}">
+                        <a href="{{route('admin-slide')}}" aria-expanded="true"><i class="ti-dashboard"></i><span>Slide</span></a>
+                    </li>
+                    <li class="{{str_contains(Request::path(), 'admin/certificate') ? 'active' : ''}}">
+                        <a href="{{route('admin-certificate')}}" aria-expanded="true"><i class="ti-dashboard"></i><span>Product Certificate</span></a>
+                    </li>
                 </ul>
             </nav>
         </div>

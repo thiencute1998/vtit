@@ -13,7 +13,7 @@
                                         <div class="vc_column-inner ">
                                             <div class="wpb_wrapper"><p
                                                     style="font-size: 32px;color: #085895;text-align: center;font-family:Open Sans;font-weight:400;font-style:normal"
-                                                    class="vc_custom_heading"> Thermoplastics Resins Products </p>
+                                                    class="vc_custom_heading"> {{$product->name}} </p>
                                                 <div class="vc_empty_space" style="height: 32px"><span
                                                         class="vc_empty_space_inner"></span></div>
                                             </div>

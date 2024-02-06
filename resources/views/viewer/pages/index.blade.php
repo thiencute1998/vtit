@@ -138,17 +138,18 @@
                                 <div class="mcb-wrap-inner">
                                     @foreach($products as $product)
                                         <div class="column mcb-column one-third column_sliding_box ">
-                                        <div class="sliding_box">
-                                            <div class="animate" data-anim-type="zoomIn"><a
-                                                    href="{{route('slug', ['slug'=> $product->slug])}}">
-                                                    <div class="photo_wrapper"><img class="scale-with-grid"
-                                                                                    src="{{asset('upload/admin/Product/image/' . $product->image)}}"
-                                                                                    alt="white-masterbatch" width="3700"
-                                                                                    height="3700"/></div>
-                                                    <div class="desc_wrapper"><h4>{{$product->name}}</h4></div>
-                                                </a></div>
+                                            <div class="sliding_box">
+                                                <div class="animate" data-anim-type="zoomIn"><a
+                                                        href="{{route('slug', ['slug'=> $product->slug])}}">
+                                                        <div class="photo_wrapper"><img class="scale-with-grid"
+                                                                                        src="{{asset('upload/admin/Product/image/' . $product->image)}}"
+                                                                                        alt="white-masterbatch"
+                                                                                        width="3700"
+                                                                                        height="3700"/></div>
+                                                        <div class="desc_wrapper"><h4>{{$product->name}}</h4></div>
+                                                    </a></div>
+                                            </div>
                                         </div>
-                                    </div>
                                     @endforeach
                                 </div>
                             </div>
@@ -231,18 +232,10 @@
                                                         class="button_icon"><i
                                                             class="icon-right-open-big"></i></span></a></div>
                                             <ul class="clients clients_slider_ul">
-                                                <li>
+                                                @foreach($certificates as $certificate)
+                                                    <li>
                                                     <div class="client_wrapper"><img width="122" height="75"
-                                                                                     src="https://starpoltrading.com/wp-content/uploads/2020/12/1541494147_Certificate-Logo-01-122x75.png"
-                                                                                     class="scale-with-grid wp-post-image"
-                                                                                     alt="" decoding="async"
-                                                                                     srcset="https://starpoltrading.com/wp-content/uploads/2020/12/1541494147_Certificate-Logo-01-122x75.png 122w, https://starpoltrading.com/wp-content/uploads/2020/12/1541494147_Certificate-Logo-01-300x185.png 300w, https://starpoltrading.com/wp-content/uploads/2020/12/1541494147_Certificate-Logo-01-237x146.png 237w, https://starpoltrading.com/wp-content/uploads/2020/12/1541494147_Certificate-Logo-01-50x31.png 50w, https://starpoltrading.com/wp-content/uploads/2020/12/1541494147_Certificate-Logo-01.png 854w"
-                                                                                     sizes="(max-width: 122px) 100vw, 122px"/>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="client_wrapper"><img width="122" height="75"
-                                                                                     src="https://starpoltrading.com/wp-content/uploads/2020/12/1541494046_Certificate-Logo-02-122x75.png"
+                                                                                     src="{{asset('upload/Certificate/image/' . $certificate->image)}}"
                                                                                      class="scale-with-grid wp-post-image"
                                                                                      alt="" decoding="async"
                                                                                      loading="lazy"
@@ -250,36 +243,7 @@
                                                                                      sizes="(max-width: 122px) 100vw, 122px"/>
                                                     </div>
                                                 </li>
-                                                <li>
-                                                    <div class="client_wrapper"><img width="122" height="75"
-                                                                                     src="https://starpoltrading.com/wp-content/uploads/2020/12/1541494169_Certificate-Logo-03-122x75.png"
-                                                                                     class="scale-with-grid wp-post-image"
-                                                                                     alt="" decoding="async"
-                                                                                     loading="lazy"
-                                                                                     srcset="https://starpoltrading.com/wp-content/uploads/2020/12/1541494169_Certificate-Logo-03-122x75.png 122w, https://starpoltrading.com/wp-content/uploads/2020/12/1541494169_Certificate-Logo-03-300x185.png 300w, https://starpoltrading.com/wp-content/uploads/2020/12/1541494169_Certificate-Logo-03-237x146.png 237w, https://starpoltrading.com/wp-content/uploads/2020/12/1541494169_Certificate-Logo-03-50x31.png 50w, https://starpoltrading.com/wp-content/uploads/2020/12/1541494169_Certificate-Logo-03.png 854w"
-                                                                                     sizes="(max-width: 122px) 100vw, 122px"/>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="client_wrapper"><img width="122" height="75"
-                                                                                     src="https://starpoltrading.com/wp-content/uploads/2020/12/1541494066_Certificate-Logo-04-122x75.png"
-                                                                                     class="scale-with-grid wp-post-image"
-                                                                                     alt="" decoding="async"
-                                                                                     loading="lazy"
-                                                                                     srcset="https://starpoltrading.com/wp-content/uploads/2020/12/1541494066_Certificate-Logo-04-122x75.png 122w, https://starpoltrading.com/wp-content/uploads/2020/12/1541494066_Certificate-Logo-04-300x185.png 300w, https://starpoltrading.com/wp-content/uploads/2020/12/1541494066_Certificate-Logo-04-237x146.png 237w, https://starpoltrading.com/wp-content/uploads/2020/12/1541494066_Certificate-Logo-04-50x31.png 50w, https://starpoltrading.com/wp-content/uploads/2020/12/1541494066_Certificate-Logo-04.png 854w"
-                                                                                     sizes="(max-width: 122px) 100vw, 122px"/>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="client_wrapper"><img width="122" height="75"
-                                                                                     src="https://starpoltrading.com/wp-content/uploads/2020/12/1541494158_Certificate-Logo-05-122x75.png"
-                                                                                     class="scale-with-grid wp-post-image"
-                                                                                     alt="" decoding="async"
-                                                                                     loading="lazy"
-                                                                                     srcset="https://starpoltrading.com/wp-content/uploads/2020/12/1541494158_Certificate-Logo-05-122x75.png 122w, https://starpoltrading.com/wp-content/uploads/2020/12/1541494158_Certificate-Logo-05-300x185.png 300w, https://starpoltrading.com/wp-content/uploads/2020/12/1541494158_Certificate-Logo-05-237x146.png 237w, https://starpoltrading.com/wp-content/uploads/2020/12/1541494158_Certificate-Logo-05-50x31.png 50w, https://starpoltrading.com/wp-content/uploads/2020/12/1541494158_Certificate-Logo-05.png 854w"
-                                                                                     sizes="(max-width: 122px) 100vw, 122px"/>
-                                                    </div>
-                                                </li>
+                                                @endforeach
                                             </ul>
                                         </div>
                                         </ul>

@@ -8,6 +8,8 @@ use App\Http\Controllers\Admin\ApplicationController;
 use App\Http\Controllers\Admin\QuoteController;
 use App\Http\Controllers\Admin\AboutController;
 use App\Http\Controllers\Admin\ContactController;
+use App\Http\Controllers\Admin\SlideController;
+use App\Http\Controllers\Admin\CertificateController;
 use App\Http\Controllers\Viewer\IndexController;
 /*
 |--------------------------------------------------------------------------
@@ -69,6 +71,20 @@ Route::prefix('admin')->middleware(['checkLogin'])->group(function () {
         Route::get('/', [ContactController::class, 'index'])->name('admin-contact');
         Route::get('/view/{id}', [ContactController::class, 'view'])->name('admin-contact-view');
         Route::get('/delete/{id}', [ContactController::class, 'delete'])->name('admin-contact-delete');
+    });
+
+    Route::prefix('slide')->group(function() {
+        Route::get('/', [SlideController::class, 'index'])->name('admin-slide');
+        Route::get('/create', [SlideController::class, 'create'])->name('admin-slide-create');
+        Route::post('/store', [SlideController::class, 'store'])->name('admin-slide-store');
+        Route::get('/delete/{id}', [SlideController::class, 'delete'])->name('admin-slide-delete');
+    });
+
+    Route::prefix('certificate')->group(function() {
+        Route::get('/', [CertificateController::class, 'index'])->name('admin-certificate');
+        Route::get('/create', [CertificateController::class, 'create'])->name('admin-certificate-create');
+        Route::post('/store', [CertificateController::class, 'store'])->name('admin-certificate-store');
+        Route::get('/delete/{id}', [CertificateController::class, 'delete'])->name('admin-certificate-delete');
     });
 
 });

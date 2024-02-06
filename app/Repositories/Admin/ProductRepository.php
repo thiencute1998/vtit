@@ -127,6 +127,7 @@ class ProductRepository extends BaseRepository {
         DB::beginTransaction();
         try {
             $this->model->where('id', $id)->delete();
+            ProductDetail::where('product_id', $id)->delete();
             DB::commit();
         } catch (\Exception $exception) {
             DB::rollBack();
