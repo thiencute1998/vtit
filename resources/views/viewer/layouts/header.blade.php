@@ -62,10 +62,10 @@
             </div>
         </div>
         @if (Route::currentRouteName() == 'index')
-        <video autoplay muted loop id="myVideo" style="width:100%;">
-            <source src="https://starpoltrading.com/wp-content/uploads/2023/07/Andres-Video-3.mp4" type="video/mp4">
-            Your browser does not support HTML5 video.
-        </video>
+{{--        <video autoplay muted loop id="myVideo" style="width:100%;">--}}
+{{--            <source src="" type="video/mp4">--}}
+{{--            Your browser does not support HTML5 video.--}}
+{{--        </video>--}}
         @endif
     </header>
 </div>
