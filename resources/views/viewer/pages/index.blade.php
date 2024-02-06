@@ -101,7 +101,7 @@
                                 </div>
                             </div>
                             <div class="wrap mcb-wrap one  valign-top clearfix"
-                                 style="padding:30px 30px 0 30px; background-color:#0E2C48; background-image:url(https://starpoltrading.com/wp-content/uploads/2016/05/back-img-truck.jpg); background-repeat:no-repeat; background-position:center top; background-attachment:; background-size:; -webkit-background-size:">
+                                 style="padding:30px 30px 0 30px; background-color:#0E2C48; background-image:url({{asset('assets/viewer/style/images/back-img-truck.jpg')}}); background-repeat:no-repeat; background-position:center top; background-attachment:; background-size:; -webkit-background-size:">
                                 <div class="mcb-wrap-inner">
                                     <div class="column mcb-column one column_column  column-margin-">
                                         <div class="column_attr clearfix" style=" padding:20px 0 20px 0;"><h5
