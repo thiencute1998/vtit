@@ -21,7 +21,11 @@
                     <div class="top_bar_left header-height clearfix">
                         <!-- .logo -->
                         <div class="logo">
-                            <a id="logo" href="#" title="Starpol Trading"><img class="logo-main scale-with-grid" src="https://starpoltrading.com/wp-content/uploads/2020/12/Logo-01.png" alt="Logo-01" /><img class="logo-sticky scale-with-grid" src="https://starpoltrading.com/wp-content/uploads/2020/12/Logo-01.png" alt="Logo-01" /><img class="logo-mobile scale-with-grid" src="https://starpoltrading.com/wp-content/uploads/2020/12/Logo-01.png" alt="Logo-01" /></a>				</div>
+                            <a id="logo" href="#" title="Starpol Trading">
+                                <img class="logo-main scale-with-grid" src="{{asset('assets/viewer/style/images/Romaplas_logo.png')}}" alt="Logo-01" />
+                                <img class="logo-sticky scale-with-grid" src="{{asset('assets/viewer/style/images/Romaplas_logo.png')}}" alt="Logo-01" />
+                                <img class="logo-mobile scale-with-grid" src="{{asset('assets/viewer/style/images/Romaplas_logo.png')}}" alt="Logo-01" /></a>
+                        </div>
                         <div class="menu_wrapper">
 
                             <nav id="menu" class="menu-main-menu-ingles-container"><ul id="menu-main-menu-ingles" class="menu"><li id="menu-item-384" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home"><a href="{{route('index')}}"><span>Home</span></a></li>
