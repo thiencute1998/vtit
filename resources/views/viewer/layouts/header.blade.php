@@ -21,7 +21,7 @@
                     <div class="top_bar_left header-height clearfix">
                         <!-- .logo -->
                         <div class="logo">
-                            <a id="logo" href="#" title="Starpol Trading">
+                            <a id="logo" href="{{route('index')}}" title="Starpol Trading">
                                 <img class="logo-main scale-with-grid" src="{{asset('assets/viewer/style/images/Romaplas_logo.png')}}" alt="Logo-01" />
                                 <img class="logo-sticky scale-with-grid" src="{{asset('assets/viewer/style/images/Romaplas_logo.png')}}" alt="Logo-01" />
                                 <img class="logo-mobile scale-with-grid" src="{{asset('assets/viewer/style/images/Romaplas_logo.png')}}" alt="Logo-01" /></a>
