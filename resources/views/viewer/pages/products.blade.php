@@ -36,7 +36,7 @@
                                                     <div class="prodouct-name">
                                                         <a href="{{route('slug', ['slug'=> $product->slug])}}"
                                                            title="{{$detail->name}}">
-                                                            {{$detail->name}} </a>
+                                                            <h4>{{$detail->name}}</h4> </a>
                                                     </div>
 
                                                 </div>
