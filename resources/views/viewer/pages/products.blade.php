@@ -25,7 +25,7 @@
                                     <ul class="product-list">
                                     @foreach($product->productDetails as $detail)
                                             <li>
-                                                <div>
+                                                <div class="book-img">
                                                     <a @if($detail->link) href="{{$detail->link}}" @endif
                                                        class="tacpham-main-img"><img
                                                             src="{{asset('upload/admin/Product/image/' . $detail->image)}}"
