@@ -192,5 +192,6 @@ margin:14px 0 !important;
     margin-top: 20px !important;
     padding-top: 20px !important;
 }
-ul.product-list li div.prodouct-name a{}
+ul.product-list li{ height: 245px !important}
+ul.product-list li div.prodouct-name { margin: 10px 0;}
 

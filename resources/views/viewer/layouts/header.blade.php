@@ -66,6 +66,9 @@
 {{--            <source src="" type="video/mp4">--}}
 {{--            Your browser does not support HTML5 video.--}}
 {{--        </video>--}}
+            <div>
+                <img src="{{asset('assets/viewer/style/images/Slide.jpg')}}" style="width: 100%; ">
+            </div>
         @endif
     </header>
 </div>
